@@ -38,10 +38,16 @@ class face_detection:
     self.bbox_face = bbox_face
     self.bbox_body = bbox_body
 
+    for name in self.faces:
+      if name == "unknown":
+        self.faces[name] = min(max(-100, self.faces[name] - 3), 30)
+      else:
+        self.faces[name] = min(max(0, self.faces[name] - 2), 30)
+
     if face in self.faces.keys():
-      self.faces[face] += 1
+      self.faces[face] += 4
     else:
-      self.faces[face] = 1
+      self.faces[face] = 4
 
 class ids_info():
   def __init__(self, model_path, tracker_name, face_database_path):
@@ -108,7 +114,7 @@ class ids_info():
     matched_indexes = []
 
     for det in self.Detections:
-      result = np.where(self.tracker_detections == det.id)
+      result = np.where(self.tracker_detections[:, 4] == det.id)[0]
       if result.size != 0:
         result = result[0]
         matched_indexes.append(result)
