@@ -26,6 +26,23 @@ from deep_sort.deep_sort import DeepSort
 
 import face_recognition
 
+class face_detection:
+  def __init__(self, id, face, bbox_face, bbox_body):
+      self.id = id
+      self.frame_no = 0
+      self.faces = {}
+      self.Update(face, bbox_face, bbox_body)
+
+  def Update(self, face, bbox_face, bbox_body):
+    self.frame_no += 1
+    self.bbox_face = bbox_face
+    self.bbox_body = bbox_body
+
+    if face in self.faces.keys():
+      self.faces[face] += 1
+    else:
+      self.faces[face] = 1
+
 class ids_info():
   def __init__(self, model_path, tracker_name, face_database_path):
     self.model = torch.hub.load("yolov5", 'custom', path=model_path, source='local')
@@ -39,6 +56,8 @@ class ids_info():
                         max_age=cfg.DEEPSORT.MAX_AGE, n_init=cfg.DEEPSORT.N_INIT, nn_budget=cfg.DEEPSORT.NN_BUDGET,
                         )
     self.faces = face_database_path
+
+    self.Detections = []
 
     self.residents = []
     self.residents_name = []
@@ -85,4 +104,24 @@ class ids_info():
     return self.face_names
 
   def Returner(self):
-    
+    new_detections = []
+    matched_indexes = []
+
+    for det in self.Detections:
+      result = np.where(self.tracker_detections == det.id)
+      if result.size != 0:
+        result = result[0]
+        matched_indexes.append(result)
+        det.Update(self.face_names[result], self.tracker_detections[result, 0:4], []) #TODO add body
+        new_detections.append(det)
+
+    self.Detections = new_detections
+
+    counter = -1
+    for face_name, tracked_det in zip(self.face_names, self.tracker_detections): #TODO add body
+      counter += 1
+      if counter in matched_indexes:
+        continue
+      det = face_detection(tracked_det[4], face_name, tracked_det[0:4], [])
+      self.Detections.append(det)
+    return self.Detections
