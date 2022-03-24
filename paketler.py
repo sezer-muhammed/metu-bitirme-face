@@ -57,13 +57,9 @@ class ids_info():
   def __init__(self, model_path, tracker_name, face_database_path, print_time):
 
     self.print_time = print_time
-    #self.model = torch.hub.load("yolov5", 'custom', path=model_path, source='local')
-    #self.model.conf = 0.45
-    
-    self.model = DetectMultiBackend(model_path, device=torch.device(0), dnn=False, fp16=True, data="yolov5/data/head.yaml")
-    self.model.warmup()
-    self.model = AutoShape(self.model)
+    self.model = torch.hub.load("yolov5", 'custom', path=model_path, source='local')
     self.model.conf = 0.45
+  
 
     cfg = get_config()
     cfg.merge_from_file("deep_sort.yaml")
