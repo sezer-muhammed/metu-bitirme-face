@@ -5,7 +5,7 @@ import sys
 from pathlib import Path
 import os
 
-from sqlite3 import Time
+from time import time
 import torch
 import glob 
 from random import shuffle
@@ -50,7 +50,9 @@ class face_detection:
       self.faces[face] = 4
 
 class ids_info():
-  def __init__(self, model_path, tracker_name, face_database_path):
+  def __init__(self, model_path, tracker_name, face_database_path, print_time):
+
+    self.print_time = print_time
     self.model = torch.hub.load("yolov5", 'custom', path=model_path, source='local')
     self.model.conf = 0.45
     cfg = get_config()
@@ -67,20 +69,29 @@ class ids_info():
 
     self.residents = []
     self.residents_name = []
+
+    start = time()
     for resident in glob.glob("faces/residents/*.jpg"):
       image = cv2.imread(resident)
       image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
-      name = resident.split("\\")[-1].split("_")[0] #! UBUNTUDA BUNU DÜZELT
+      name = resident.split("/")[-1].split("_")[0] #! UBUNTUDA BUNU DÜZELT
       face_encoding = face_recognition.face_encodings(image)[0]
       self.residents.append(face_encoding)
       self.residents_name.append(name)
+    if self.print_time:
+      print(f"Uploading Resident Images Done. {round(time() - start, 4)}")
 
   def Detect(self, frame):
+    self.loop_start = time()
+    start = time()
     self.frame = frame
     self.result = self.model(frame)
     self.yolo_detections = self.result.pred[0].cpu()
+    if self.print_time:
+      print(f"Detectin Objects Done. {round(time() - start, 4)}")
 
   def Tracker(self):
+    start = time()
     clss = self.result.xywh[0][:, 5].cpu()
     xywh = self.result.xywh[0][:, 0:4].cpu()[clss == 1]
     confs = self.result.xywh[0][:, 4].cpu()[clss == 1]
@@ -90,13 +101,19 @@ class ids_info():
       self.tracker_detections = np.expand_dims(self.tracker_detections, axis = 0)
     if self.tracker_detections.size == 0:
       self.tracker_detections = np.empty((0, 6))
+    if self.print_time:
+      print(f"DeepSort Matching Done. {round(time() - start, 4)}")
     return self.tracker_detections
 
   def Regularize(self):
+    start = time()
     self.face_locations = self.tracker_detections[:, [1, 2, 3, 0]]
     #TODO Match body and head, then find ymax for each head
+    if self.print_time:
+      print(f"Regularization of Data Done. {round(time() - start, 4)}")
 
   def Face_Detect(self):
+    start = time()
     self.face_encodings = face_recognition.face_encodings(self.frame, self.face_locations)
     self.face_names = []    
     for face_encode in self.face_encodings:
@@ -107,9 +124,12 @@ class ids_info():
       if matches[best_match_index]:
         name = self.residents_name[best_match_index]
       self.face_names.append(name)
+    if self.print_time:
+      print(f"Face ID Extracted and Matched Done. {round(time() - start, 4)}")
     return self.face_names
 
   def Returner(self):
+    start = time()
     new_detections = []
     matched_indexes = []
 
@@ -130,4 +150,9 @@ class ids_info():
         continue
       det = face_detection(tracked_det[4], face_name, tracked_det[0:4], [])
       self.Detections.append(det)
+
+    if self.print_time:
+      print(f"Detections Done. {round(time() - start, 4)}")
+      print(f"Total Loop Time: {time() - self.loop_start:5.3f}, FPS: {round(1 / (time() - self.loop_start),2)}")
+      print("----------------------------------------------------------------------------------")
     return self.Detections
