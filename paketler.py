@@ -19,7 +19,7 @@ import os
 from time import time
 
 sys.path.insert(0, './yolov5')
-from yolov5.models.common import DetectMultiBackend
+from yolov5.models.common import DetectMultiBackend, AutoShape
 
 from deep_sort.utils.parser import get_config
 from deep_sort.deep_sort import DeepSort
@@ -31,12 +31,16 @@ class face_detection:
       self.id = id
       self.frame_no = 0
       self.faces = {}
+      self.last_name = "unknown"
       self.Update(face, bbox_face, bbox_body)
 
   def Update(self, face, bbox_face, bbox_body):
     self.frame_no += 1
     self.bbox_face = bbox_face
     self.bbox_body = bbox_body
+    if face == "empty":
+      face = self.last_name
+    self.last_name = face
 
     for name in self.faces:
       if name == "unknown":
@@ -53,8 +57,14 @@ class ids_info():
   def __init__(self, model_path, tracker_name, face_database_path, print_time):
 
     self.print_time = print_time
-    self.model = torch.hub.load("yolov5", 'custom', path=model_path, source='local')
+    #self.model = torch.hub.load("yolov5", 'custom', path=model_path, source='local')
+    #self.model.conf = 0.45
+    
+    self.model = DetectMultiBackend(model_path, device=torch.device(0), dnn=False, fp16=True, data="yolov5/data/head.yaml")
+    self.model.warmup()
+    self.model = AutoShape(self.model)
     self.model.conf = 0.45
+
     cfg = get_config()
     cfg.merge_from_file("deep_sort.yaml")
     self.deepsort = DeepSort(tracker_name,
@@ -114,8 +124,12 @@ class ids_info():
 
   def Face_Detect(self):
     start = time()
-    self.face_encodings = face_recognition.face_encodings(self.frame, self.face_locations)
-    self.face_names = []    
+    if self.face_locations.size == 0:
+      self.face_names = []
+      return self.face_names
+    self.face_names = ["empty"] * self.face_locations.shape[0]
+    random = np.random.randint(0, self.face_locations.shape[0])
+    self.face_encodings = face_recognition.face_encodings(self.frame, [self.face_locations[random]])
     for face_encode in self.face_encodings:
       matches = face_recognition.compare_faces(self.residents, face_encode)
       face_distances = face_recognition.face_distance(self.residents, face_encode)
@@ -123,9 +137,9 @@ class ids_info():
       name = "unknown"
       if matches[best_match_index]:
         name = self.residents_name[best_match_index]
-      self.face_names.append(name)
+      self.face_names[random] = name
     if self.print_time:
-      print(f"Face ID Extracted and Matched Done. {round(time() - start, 4)}")
+      print(f"Face ID Extracted and Matched Done. {round(time() - start, 4)}, {self.face_names}")
     return self.face_names
 
   def Returner(self):

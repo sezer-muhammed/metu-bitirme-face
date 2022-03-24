@@ -31,10 +31,12 @@ for video in videos:
 
   saver = cv2.VideoWriter(f"{video.split('.')[0]}Filled.mp4", cv2.VideoWriter_fourcc(*'mp4v'), fps, (640, 360))
   counter = 0
-
+  print(f"====={video}========")
   while True:
     counter += 1
     _, frame = cam.read()
+    #if counter % 1 != 0:
+    #  continue
     if _ == False:
       break
     frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
