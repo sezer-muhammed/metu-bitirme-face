@@ -61,11 +61,11 @@ class face_detection:
       self.faces[face] = 4
 
 class ids_info():
-  def __init__(self, model_path, tracker_name, face_database_path, print_time):
+  def __init__(self, model_path, tracker_name, face_database_path, print_time, conf):
 
     self.print_time = print_time
     self.model = torch.hub.load("yolov5", 'custom', path=model_path, source='local')
-    self.model.conf = 0.45
+    self.model.conf = conf
   
 
     cfg = get_config()
@@ -120,7 +120,6 @@ class ids_info():
 
   def Regularize(self):
     start = time()
-    print(self.yolo_xyxy_tracker_filtered, self.tracker_detections)
     self.face_locations = self.tracker_detections[:, [1, 2, 3, 0]]
     #TODO Match body and head, then find ymax for each head
     if self.print_time:

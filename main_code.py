@@ -21,7 +21,7 @@ import glob
 videos = glob.glob("*.mp4")
 
 for video in videos:
-  manager = ids_info(args.model, args.tracker, args.faces, args.verbose)
+  manager = ids_info(args.model, args.tracker, args.faces, args.verbose, args.conf)
 
   cam = cv2.VideoCapture(video)
 
