@@ -135,7 +135,7 @@ class ids_info():
     self.face_encodings = face_recognition.face_encodings(self.frame, [self.face_locations[random]])
     
     for face_encode in self.face_encodings:
-      matches = face_recognition.compare_faces(self.residents, face_encode)
+      matches = face_recognition.compare_faces(self.residents, face_encode, tolerance = 0.6)
       face_distances = face_recognition.face_distance(self.residents, face_encode)
       best_match_index = np.argmin(face_distances)
       name = "unknown"

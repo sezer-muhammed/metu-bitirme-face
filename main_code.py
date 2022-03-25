@@ -29,18 +29,18 @@ for video in videos:
   w = int(cam.get(cv2.CAP_PROP_FRAME_WIDTH))
   h = int(cam.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
-  #saver = cv2.VideoWriter(f"{video.split('.')[0]}Filled.mp4", cv2.VideoWriter_fourcc(*'mp4v'), fps, (640, 360))
+  saver = cv2.VideoWriter(f"runs/{video.split('.')[0]}_filled.mp4", cv2.VideoWriter_fourcc(*'mp4v'), 2, (1280, 720))
   counter = 0
   print(f"====={video}========")
   while True:
     counter += 1
     _, frame = cam.read()
-    if counter % 10 != 0:
+    if counter % 12 != 0:
       continue
     if _ == False:
       break
     frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-    frame = cv2.resize(frame, (640, 360))
+    frame = cv2.resize(frame, (1280, 720))
 
     manager.Detect(frame)
     dets = manager.Tracker()
@@ -67,5 +67,5 @@ for video in videos:
         sorted_dict = json.dumps(sorted_dict)
         cv2.putText(frame, f"| {sorted_dict}", (lenght, (i + 1) * 20), cv2.FONT_HERSHEY_COMPLEX, 0.5, info_color, 1)
     cv2.imshow("frame", cv2.resize(frame, (1280, 720)))
-    #saver.write(frame)
-    cv2.waitKey(1)
+    saver.write(frame)
+    cv2.waitKey(40)
