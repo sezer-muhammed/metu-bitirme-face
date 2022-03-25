@@ -32,6 +32,7 @@ class face_detection:
       self.frame_no = 0
       self.faces = {}
       self.last_name = "unknown"
+      self.lock = False
       self.Update(face, bbox_face, bbox_body)
 
   def Update(self, face, bbox_face, bbox_body):
@@ -44,9 +45,15 @@ class face_detection:
 
     for name in self.faces:
       if name == "unknown":
-        self.faces[name] = min(max(-100, self.faces[name] - 3), 30)
+        if self.lock:
+          self.faces[name] = -100
+        else: 
+          self.faces[name] = min(max(-100, self.faces[name] - 3), 30)
       else:
         self.faces[name] = min(max(0, self.faces[name] - 2), 30)
+        if self.faces[name] == 28:
+          self.lock = True
+
 
     if face in self.faces.keys():
       self.faces[face] += 4
@@ -126,6 +133,7 @@ class ids_info():
     self.face_names = ["empty"] * self.face_locations.shape[0]
     random = np.random.randint(0, self.face_locations.shape[0])
     self.face_encodings = face_recognition.face_encodings(self.frame, [self.face_locations[random]])
+    
     for face_encode in self.face_encodings:
       matches = face_recognition.compare_faces(self.residents, face_encode)
       face_distances = face_recognition.face_distance(self.residents, face_encode)
