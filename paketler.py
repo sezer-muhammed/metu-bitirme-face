@@ -120,6 +120,7 @@ class ids_info():
 
   def Regularize(self):
     start = time()
+    print(self.yolo_xyxy_tracker_filtered, self.tracker_detections)
     self.face_locations = self.tracker_detections[:, [1, 2, 3, 0]]
     #TODO Match body and head, then find ymax for each head
     if self.print_time:

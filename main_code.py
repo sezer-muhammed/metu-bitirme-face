@@ -2,7 +2,7 @@ import argparse
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument('--model', type=str, default="../crowdhuman_yolov5m.pt", help='Model File Path')
+parser.add_argument('--model', type=str, default="bitirme_head_model.pt", help='Model File Path')
 parser.add_argument('--tracker', type=str, default="osnet_x0_25", help='Tracker Name')
 parser.add_argument('--faces', type=str, default="faces", help='Face Database Path')
 
@@ -68,4 +68,4 @@ for video in videos:
         cv2.putText(frame, f"| {sorted_dict}", (lenght, (i + 1) * 20), cv2.FONT_HERSHEY_COMPLEX, 0.5, info_color, 1)
     cv2.imshow("frame", cv2.resize(frame, (1280, 720)))
     #saver.write(frame)
-    cv2.waitKey(1)
+    cv2.waitKey(500)
