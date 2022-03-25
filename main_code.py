@@ -7,7 +7,7 @@ parser.add_argument('--tracker', type=str, default="osnet_x0_25", help='Tracker 
 parser.add_argument('--faces', type=str, default="faces", help='Face Database Path')
 
 parser.add_argument('--source', type=str, default="", help='Video Path or 0 for webcam')
-parser.add_argument('--conf-thres', type=float, default=0.45, help='confidence threshold')
+parser.add_argument('--conf', type=float, default=0.45, help='confidence threshold')
 #parser.add_argument('--int-input', default=3, type=int, help='bounding box thickness (pixels)')
 #parser.add_argument('--binary', default=False, action='store_true', help='hide confidences')
 parser.add_argument('--verbose', action='store_true', help='Show Methods Time')
@@ -35,7 +35,7 @@ for video in videos:
   while True:
     counter += 1
     _, frame = cam.read()
-    if counter % 15 != 0:
+    if counter % 10 != 0:
       continue
     if _ == False:
       break
@@ -68,4 +68,4 @@ for video in videos:
         cv2.putText(frame, f"| {sorted_dict}", (lenght, (i + 1) * 20), cv2.FONT_HERSHEY_COMPLEX, 0.5, info_color, 1)
     cv2.imshow("frame", cv2.resize(frame, (1280, 720)))
     #saver.write(frame)
-    cv2.waitKey(500)
+    cv2.waitKey(1)

@@ -48,17 +48,17 @@ class face_detection:
         if self.lock:
           self.faces[name] = -100
         else: 
-          self.faces[name] = min(max(-100, self.faces[name] - 3), 30)
+          self.faces[name] = min(max(-100, self.faces[name] - 6), 30)
       else:
-        self.faces[name] = min(max(0, self.faces[name] - 2), 30)
-        if self.faces[name] == 28:
+        self.faces[name] = min(max(0, self.faces[name] - 4), 30)
+        if self.faces[name] > 20:
           self.lock = True
 
 
     if face in self.faces.keys():
-      self.faces[face] += 4
+      self.faces[face] += 8
     else:
-      self.faces[face] = 4
+      self.faces[face] = 8
 
 class ids_info():
   def __init__(self, model_path, tracker_name, face_database_path, print_time, conf):
