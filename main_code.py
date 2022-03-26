@@ -2,7 +2,7 @@ import argparse
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument('--model', type=str, default="bitirme_head_model.pt", help='Model File Path')
+parser.add_argument('--model', type=str, default="bitirme_face_detection_yolov5n.pt", help='Model File Path')
 parser.add_argument('--tracker', type=str, default="osnet_x0_25", help='Tracker Name')
 parser.add_argument('--faces', type=str, default="faces", help='Face Database Path')
 
