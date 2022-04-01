@@ -17,8 +17,10 @@ from paketler import ids_info
 import cv2
 import json
 import glob 
+import numpy as np
 
-videos = glob.glob("*.mp4")
+
+videos = glob.glob("../*.mov")
 
 for video in videos:
   manager = ids_info(args.model, args.tracker, args.faces, args.verbose, args.conf)
@@ -34,11 +36,27 @@ for video in videos:
   print(f"====={video}========")
   while True:
     counter += 1
+    #print(counter)
     _, frame = cam.read()
+    frame = cv2.resize(frame, (1280, 720))
     if counter % 12 != 0:
       continue
     if _ == False:
       break
+    if counter < 3700:
+      continue
+
+    if counter % 3 == 0:
+      arucoDict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_4X4_50)
+      arucoParams = cv2.aruco.DetectorParameters_create()
+      (corners, ids, rejected) = cv2.aruco.detectMarkers(frame, arucoDict,parameters=arucoParams)
+      if ids is not None:
+        for corner, id in zip(corners, ids):
+
+          #print(np.min(corner[0][:, 0]))
+          cv2.rectangle(frame, (int(np.min(corner[0][:, 0])), int(np.min(corner[0][:, 1]))), (int(np.max(corner[0][:, 0])), int(np.max(corner[0][:, 1]))), (25, 0, 250), 2)
+          cv2.putText(frame, f"AruCo ID: {id}", (10, 700), cv2.FONT_HERSHEY_COMPLEX, 1, (0,0,255), 1)
+
     frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     frame = cv2.resize(frame, (1280, 720))
 
@@ -68,4 +86,4 @@ for video in videos:
         cv2.putText(frame, f"| {sorted_dict}", (lenght, (i + 1) * 20), cv2.FONT_HERSHEY_COMPLEX, 0.5, info_color, 1)
     cv2.imshow("frame", cv2.resize(frame, (1280, 720)))
     saver.write(frame)
-    cv2.waitKey(40)
+    cv2.waitKey(1)
