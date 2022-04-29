@@ -1,5 +1,3 @@
-from turtle import forward
-from soupsieve import match
 import torch
 import sys
 from pathlib import Path
@@ -25,6 +23,8 @@ from deep_sort.utils.parser import get_config
 from deep_sort.deep_sort import DeepSort
 
 import face_recognition
+
+from shapely import geometry
 
 class face_detection:
   def __init__(self, id, face, bbox_face, bbox_body):
@@ -61,12 +61,13 @@ class face_detection:
       self.faces[face] = 8
 
 class ids_info():
-  def __init__(self, model_path, tracker_name, face_database_path, print_time, conf):
+  def __init__(self, model_path, tracker_name, face_database_path, print_time, conf, polygons):
+    self.polygons = polygons
 
     self.print_time = print_time
     self.model = torch.hub.load("yolov5", 'custom', path=model_path, source='local')
     self.model.conf = conf
-  
+
 
     cfg = get_config()
     cfg.merge_from_file("deep_sort.yaml")
@@ -82,6 +83,8 @@ class ids_info():
 
     self.residents = []
     self.residents_name = []
+
+    self.flags = [0, 0, 0, 0, 0] #forbidden enterance, too long waited people, .., .., ..
 
     start = time()
     for resident in glob.glob("faces/residents/*.jpg"):
@@ -122,7 +125,24 @@ class ids_info():
   def Regularize(self):
     start = time()
     self.face_locations = self.tracker_detections[:, [1, 2, 3, 0]]
-    #TODO Match body and head, then find ymax for each head
+
+    clss = self.result.xywh[0][:, 5].cpu()
+    bodies = self.result.xywh[0][:, 0:4].cpu()[clss == 0].numpy()
+    self.flags[0] = 0
+    flag_counter = 0
+    forbidden_points = []
+    for body in bodies:
+      x = body[0]
+      y = body[3] / 2 + body[1]
+      point = geometry.Point(x, y)
+      flag_counter += 1
+      for area in self.polygons:
+        if area.contains(point):
+          self.flags[0] = flag_counter
+          forbidden_points.append([int(x), int(y)])
+    return forbidden_points
+        
+
     if self.print_time:
       print(f"Regularization of Data Done. {round(time() - start, 4)}")
 
@@ -157,13 +177,13 @@ class ids_info():
       if result.size != 0:
         result = result[0]
         matched_indexes.append(result)
-        det.Update(self.face_names[result], self.tracker_detections[result, 0:4], []) #TODO add body
+        det.Update(self.face_names[result], self.tracker_detections[result, 0:4], [])
         new_detections.append(det)
 
     self.Detections = new_detections
 
     counter = -1
-    for face_name, tracked_det in zip(self.face_names, self.tracker_detections): #TODO add body
+    for face_name, tracked_det in zip(self.face_names, self.tracker_detections):
       counter += 1
       if counter in matched_indexes:
         continue
@@ -174,4 +194,4 @@ class ids_info():
       print(f"Detections Done. {round(time() - start, 4)}")
       print(f"Total Loop Time: {time() - self.loop_start:5.3f}, FPS: {round(1 / (time() - self.loop_start),2)}")
       print("----------------------------------------------------------------------------------")
-    return self.Detections
+    return self.Detections, self.flags
