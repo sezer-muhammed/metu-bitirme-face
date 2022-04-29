@@ -88,6 +88,7 @@ class ids_info():
       image = cv2.imread(resident)
       image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
       name = resident.split("/")[-1].split("_")[0] #! UBUNTUDA BUNU DÜZELT
+      print(f"Trying to upload image {resident}. If there is a problem please delete this file.")
       face_encoding = face_recognition.face_encodings(image)[0]
       self.residents.append(face_encoding)
       self.residents_name.append(name)

@@ -20,7 +20,7 @@ import glob
 import numpy as np
 
 
-videos = glob.glob("../*.mov")
+videos = glob.glob("WIN_20220429_10_34_15_Pro.mp4")
 
 for video in videos:
   manager = ids_info(args.model, args.tracker, args.faces, args.verbose, args.conf)
@@ -31,31 +31,26 @@ for video in videos:
   w = int(cam.get(cv2.CAP_PROP_FRAME_WIDTH))
   h = int(cam.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
-  saver = cv2.VideoWriter(f"runs/{video.split('.')[0]}_filled.mp4", cv2.VideoWriter_fourcc(*'mp4v'), 2, (1280, 720))
+  saver = cv2.VideoWriter(f"runs/{video.split('.')[0]}_filled.mp4", cv2.VideoWriter_fourcc(*'mp4v'), fps, (1280, 720))
   counter = 0
   print(f"====={video}========")
+
   while True:
     counter += 1
-    #print(counter)
+
     _, frame = cam.read()
-    frame = cv2.resize(frame, (1280, 720))
-    if counter % 12 != 0:
-      continue
     if _ == False:
       break
-    if counter < 3700:
-      continue
 
-    if counter % 3 == 0:
-      arucoDict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_4X4_50)
-      arucoParams = cv2.aruco.DetectorParameters_create()
-      (corners, ids, rejected) = cv2.aruco.detectMarkers(frame, arucoDict,parameters=arucoParams)
-      if ids is not None:
-        for corner, id in zip(corners, ids):
+    frame = cv2.resize(frame, (1280, 720))
 
-          #print(np.min(corner[0][:, 0]))
-          cv2.rectangle(frame, (int(np.min(corner[0][:, 0])), int(np.min(corner[0][:, 1]))), (int(np.max(corner[0][:, 0])), int(np.max(corner[0][:, 1]))), (25, 0, 250), 2)
-          cv2.putText(frame, f"AruCo ID: {id}", (10, 700), cv2.FONT_HERSHEY_COMPLEX, 1, (0,0,255), 1)
+    arucoDict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_4X4_50)
+    arucoParams = cv2.aruco.DetectorParameters_create()
+    (corners, ids, rejected) = cv2.aruco.detectMarkers(frame, arucoDict,parameters=arucoParams)
+    if ids is not None:
+      for corner, id in zip(corners, ids):
+        cv2.rectangle(frame, (int(np.min(corner[0][:, 0])), int(np.min(corner[0][:, 1]))), (int(np.max(corner[0][:, 0])), int(np.max(corner[0][:, 1]))), (25, 0, 250), 2)
+        cv2.putText(frame, f"AruCo ID: {id}", (10, 700), cv2.FONT_HERSHEY_COMPLEX, 1, (0,0,255), 1)
 
     frame = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
     frame = cv2.resize(frame, (1280, 720))
@@ -67,23 +62,29 @@ for video in videos:
     Detections = manager.Returner()
 
     frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
+    
     for i, det in enumerate(Detections):
       face_name = max(det.faces, key = det.faces.get)
       rect_color = (hash(face_name + "B")%255, hash(face_name + "G")%255, hash(face_name + "R")%255)
       cv2.rectangle(frame, (det.bbox_face[0], det.bbox_face[1]), (det.bbox_face[2], det.bbox_face[3]), rect_color, 3)
       cv2.putText(frame, f"ID: {det.id}, {face_name}", (det.bbox_face[0], det.bbox_face[3]), cv2.FONT_HERSHEY_COMPLEX, 0.4, (0, 0, 255), 1)
       info_color = (0, 255, 30)
+
       if det.frame_no > 300 and face_name == "unknown" and counter % int(fps * 2) < int(fps):
         info_color = (25, 10, 255)
+
       elif face_name != "unknown":
         info_color = rect_color
+
       info_text = f"ID: {det.id:3.0f}, Life: {round(det.frame_no / fps, 2):7.2f} Seconds"
       cv2.putText(frame, info_text, (10, (i + 1) * 20), cv2.FONT_HERSHEY_COMPLEX, 0.5, info_color, 1)
+
       for key in det.faces:
         lenght = 10 + cv2.getTextSize(info_text, cv2.FONT_HERSHEY_COMPLEX, 0.5, 1)[0][0]
         sorted_dict = dict(sorted(det.faces.items(), key=  lambda item: item[1],  reverse = True))
         sorted_dict = json.dumps(sorted_dict)
         cv2.putText(frame, f"| {sorted_dict}", (lenght, (i + 1) * 20), cv2.FONT_HERSHEY_COMPLEX, 0.5, info_color, 1)
+
     cv2.imshow("frame", cv2.resize(frame, (1280, 720)))
     saver.write(frame)
     cv2.waitKey(1)
