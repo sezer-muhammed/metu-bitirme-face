@@ -192,6 +192,6 @@ class ids_info():
 
     if self.print_time:
       self.logger.info(f"Detections Done. {round(time() - start, 4)}")
-      self.logger.info(f"Total Loop Time: {time() - self.loop_start:5.3f}, FPS: {round(1 / (time() - self.loop_start),2)}")
+      self.logger.info(f"Total Loop Time: {time() - self.loop_start:5.3f}, FPS: {round(1 / (time() - self.loop_start),2)}\n")
       #print("----------------------------------------------------------------------------------")
     return self.Detections, self.flags
