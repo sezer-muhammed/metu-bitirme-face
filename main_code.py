@@ -1,5 +1,4 @@
 import argparse
-from struct import unpack
 
 parser = argparse.ArgumentParser()
 
@@ -20,6 +19,39 @@ import json
 import glob 
 import numpy as np
 from shapely import geometry
+import gdown
+import shutil
+import time
+
+import logging
+import sys
+
+logger = logging.getLogger()
+logger.setLevel(logging.INFO)
+formatter = logging.Formatter('%(asctime)s | %(levelname)s | %(message)s')
+
+stdout_handler = logging.StreamHandler(sys.stdout)
+stdout_handler.setLevel(logging.DEBUG)
+stdout_handler.setFormatter(formatter)
+
+file_handler = logging.FileHandler('logs.log')
+file_handler.setLevel(logging.DEBUG)
+file_handler.setFormatter(formatter)
+
+
+logger.addHandler(file_handler)
+logger.addHandler(stdout_handler)
+
+logger.info('Home security system started. Downloading informations from drive.')
+
+
+#try:
+#  shutil.rmtree("faces")
+#  time.sleep(0.5)
+#except:
+#  pass
+#url = "https://drive.google.com/drive/folders/1mme8YyDRcOB37gWqyWho-G5wi30xNcnu"
+#gdown.download_folder(url, quiet=False, use_cookies=False)
 
 bounds = np.loadtxt("faces/bounds.txt")
 pet_corners = bounds[-1, :]
@@ -29,24 +61,27 @@ forbidden_poly = []
 for poly in forbiddens:
   poly = poly[poly != -1].reshape((-1, 2))
   forbidden_poly.append(geometry.Polygon(poly))
-  print("Forbidden Area Added:", forbidden_poly[-1].wkt)
+  logger.info(f"Forbidden Area Added: {str(forbidden_poly[-1].wkt)}")
 
-videos = glob.glob("../face_videos/WIN_20220429_10_34_15_Pro.mp4")
+videos = glob.glob("../face_videos/2_5FPS_TEST_SABOTAGED.mov")
+
+flags = {"Pet Detection":False, "Someone Here For a Long Time":False, "Someone in Forbidden Area":False, "Camera Sabotage":False}
 
 for video in videos:
-  manager = ids_info(args.model, args.tracker, args.faces, args.verbose, args.conf, forbidden_poly)
+  manager = ids_info(args.model, args.tracker, args.faces, args.verbose, args.conf, forbidden_poly, logger)
 
   cam = cv2.VideoCapture(video)
 
-  fps = cam.get(cv2.CAP_PROP_FPS)
+  fps = 2.5#cam.get(cv2.CAP_PROP_FPS)
   w = int(cam.get(cv2.CAP_PROP_FRAME_WIDTH))
   h = int(cam.get(cv2.CAP_PROP_FRAME_HEIGHT))
 
   saver = cv2.VideoWriter(f"runs/{video.split('.')[0]}_filled.mp4", cv2.VideoWriter_fourcc(*'mp4v'), fps, (w, h))
   counter = 0
-  print(f"====={video}========")
+  logger.info(f"====={video}========")
 
   pet_counter = 0
+  forbidden_counter = 0
   last_id = 0
   last_counter = [0,0,0,0]
 
@@ -56,22 +91,28 @@ for video in videos:
     _, frame = cam.read()
     if _ == False:
       break
-
+    
+    flags["Camera Sabotage"] = False
+    if np.sum(frame[360,:]) < 1900:
+      flags["Camera Sabotage"] = True
 
     arucoDict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_4X4_50)
     arucoParams = cv2.aruco.DetectorParameters_create()
     aruco_frame = frame[int(pet_corners[1]):int(pet_corners[3]), int(pet_corners[0]):int(pet_corners[2])]
     (corners, ids, rejected) = cv2.aruco.detectMarkers(aruco_frame, arucoDict,parameters=arucoParams)
 
+    pet_counter = max(pet_counter - 1, 0)
+
     if ids is not None:
       for corner, id in zip(corners, ids):
-        pet_counter = 20
-        pet_counter = max(pet_counter - 1, 0)
+        pet_counter = 10
         last_counter = corner
         last_id = id
         cv2.rectangle(frame, (int(np.min(last_counter[0][:, 0]) + pet_corners[0]), int(np.min(last_counter[0][:, 1]) + pet_corners[1])), (int(np.max(last_counter[0][:, 0]) + pet_corners[0]), int(np.max(last_counter[0][:, 1]) + pet_corners[1])), (25, 0, 250), 2)
 
+    flags["Pet Detection"] = False
     if pet_counter > 0:
+      flags["Pet Detection"] = True
       cv2.putText(frame, f"AruCo ID: {last_id}", (10, 700), cv2.FONT_HERSHEY_COMPLEX, 1, (0,0,255), 1)
 
 
@@ -82,11 +123,18 @@ for video in videos:
     dets = manager.Tracker()
     forbidden_points = manager.Regularize()
     names = manager.Face_Detect()
-    Detections, flags = manager.Returner()
+    Detections, _ = manager.Returner()
 
     frame = cv2.cvtColor(frame, cv2.COLOR_RGB2BGR)
     
+    
+    forbidden_counter = max(forbidden_counter - 1, 0)
+    if forbidden_counter == 0:
+      flags["Someone in Forbidden Area"] = False
+    else:
+      flags["Someone in Forbidden Area"] = True
     for point in forbidden_points:
+      forbidden_counter = 10
       cv2.circle(frame, (point[0], point[1]), 10, (0, 255, 255), -1)
 
     for i, det in enumerate(Detections):
@@ -96,7 +144,9 @@ for video in videos:
       cv2.putText(frame, f"ID: {det.id}, {face_name}", (det.bbox_face[0], det.bbox_face[3]), cv2.FONT_HERSHEY_COMPLEX, 0.4, (0, 0, 255), 1)
       info_color = (0, 255, 30)
 
-      if det.frame_no > 300 and face_name == "unknown" and counter % int(fps * 2) < int(fps):
+      flags["Someone Here For a Long Time"] = False
+      if det.frame_no > 10 and face_name == "unknown" and counter % int(fps * 2) < int(fps):
+        flags["Someone Here For a Long Time"] = True
         info_color = (25, 10, 255)
 
       elif face_name != "unknown":
@@ -111,6 +161,10 @@ for video in videos:
         sorted_dict = json.dumps(sorted_dict)
         cv2.putText(frame, f"| {sorted_dict}", (lenght, (i + 1) * 20), cv2.FONT_HERSHEY_COMPLEX, 0.5, info_color, 1)
 
+    sorted_flags = dict(sorted(flags.items(), key=  lambda item: item[1],  reverse = True))
+    sorted_flags = json.dumps(sorted_flags)
+    cv2.putText(frame, f"{sorted_flags}", (10, 1000), cv2.FONT_HERSHEY_COMPLEX, 0.75, (205, 21, 125), 2, cv2.LINE_AA) #TODO DüZELT
+    logger.info(sorted_flags)
     cv2.imshow("frame", frame)
     saver.write(frame)
     cv2.waitKey(1)

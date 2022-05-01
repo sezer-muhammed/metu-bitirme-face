@@ -61,12 +61,13 @@ class face_detection:
       self.faces[face] = 8
 
 class ids_info():
-  def __init__(self, model_path, tracker_name, face_database_path, print_time, conf, polygons):
+  def __init__(self, model_path, tracker_name, face_database_path, print_time, conf, polygons, logger):
     self.polygons = polygons
 
     self.print_time = print_time
     self.model = torch.hub.load("yolov5", 'custom', path=model_path, source='local')
     self.model.conf = conf
+    self.logger = logger
 
 
     cfg = get_config()
@@ -91,12 +92,12 @@ class ids_info():
       image = cv2.imread(resident)
       image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
       name = resident.split("/")[-1].split("_")[0] #! UBUNTUDA BUNU DÜZELT
-      print(f"Trying to upload image {resident}. If there is a problem please delete this file.")
+      logger.info(f"Trying to upload image {resident}. If there is a problem please delete this file.")
       face_encoding = face_recognition.face_encodings(image)[0]
       self.residents.append(face_encoding)
       self.residents_name.append(name)
     if self.print_time:
-      print(f"Uploading Resident Images Done. {round(time() - start, 4)}")
+      self.logger.info(f"Uploading Resident Images Done. {round(time() - start, 4)}")
 
   def Detect(self, frame):
     self.loop_start = time()
@@ -105,7 +106,7 @@ class ids_info():
     self.result = self.model(frame)
     self.yolo_detections = self.result.pred[0].cpu()
     if self.print_time:
-      print(f"Detectin Objects Done. {round(time() - start, 4)}")
+      self.logger.info(f"Detectin Objects Done. {round(time() - start, 4)}")
 
   def Tracker(self):
     start = time()
@@ -119,7 +120,7 @@ class ids_info():
     if self.tracker_detections.size == 0:
       self.tracker_detections = np.empty((0, 6))
     if self.print_time:
-      print(f"DeepSort Matching Done. {round(time() - start, 4)}")
+      self.logger.info(f"DeepSort Matching Done. {round(time() - start, 4)}")
     return self.tracker_detections
 
   def Regularize(self):
@@ -140,11 +141,10 @@ class ids_info():
         if area.contains(point):
           self.flags[0] = flag_counter
           forbidden_points.append([int(x), int(y)])
-    return forbidden_points
-        
-
     if self.print_time:
-      print(f"Regularization of Data Done. {round(time() - start, 4)}")
+      self.logger.info(f"Regularization of Data Done. {round(time() - start, 4)}")
+    return forbidden_points
+
 
   def Face_Detect(self):
     start = time()
@@ -164,7 +164,7 @@ class ids_info():
         name = self.residents_name[best_match_index]
       self.face_names[random] = name
     if self.print_time:
-      print(f"Face ID Extracted and Matched Done. {round(time() - start, 4)}, {self.face_names}")
+      self.logger.info(f"Face ID Extracted and Matched Done. {round(time() - start, 4)}, {self.face_names}")
     return self.face_names
 
   def Returner(self):
@@ -191,7 +191,7 @@ class ids_info():
       self.Detections.append(det)
 
     if self.print_time:
-      print(f"Detections Done. {round(time() - start, 4)}")
-      print(f"Total Loop Time: {time() - self.loop_start:5.3f}, FPS: {round(1 / (time() - self.loop_start),2)}")
-      print("----------------------------------------------------------------------------------")
+      self.logger.info(f"Detections Done. {round(time() - start, 4)}")
+      self.logger.info(f"Total Loop Time: {time() - self.loop_start:5.3f}, FPS: {round(1 / (time() - self.loop_start),2)}")
+      #print("----------------------------------------------------------------------------------")
     return self.Detections, self.flags
