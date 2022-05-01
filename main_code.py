@@ -1,4 +1,5 @@
 import argparse
+from turtle import home
 
 parser = argparse.ArgumentParser()
 
@@ -67,6 +68,8 @@ videos = glob.glob("../face_videos/2_5FPS_TEST_SABOTAGED.mov")
 
 flags = {"Pet Detection":False, "Someone Here For a Long Time":False, "Someone in Forbidden Area":False, "Camera Sabotage":False}
 
+home_population = {"Left":0, "Entered":0}
+
 for video in videos:
   manager = ids_info(args.model, args.tracker, args.faces, args.verbose, args.conf, forbidden_poly, logger)
 
@@ -93,7 +96,7 @@ for video in videos:
       break
     
     flags["Camera Sabotage"] = False
-    if np.sum(frame[360,:]) < 1900:
+    if np.sum(frame[360,:]) < 10000:
       flags["Camera Sabotage"] = True
 
     arucoDict = cv2.aruco.Dictionary_get(cv2.aruco.DICT_4X4_50)
@@ -155,16 +158,24 @@ for video in videos:
       info_text = f"ID: {det.id:3.0f}, Life: {round(det.frame_no / fps, 2):7.2f} Seconds"
       cv2.putText(frame, info_text, (10, (i + 1) * 20), cv2.FONT_HERSHEY_COMPLEX, 0.5, info_color, 1)
 
-      for key in det.faces:
-        lenght = 10 + cv2.getTextSize(info_text, cv2.FONT_HERSHEY_COMPLEX, 0.5, 1)[0][0]
-        sorted_dict = dict(sorted(det.faces.items(), key=  lambda item: item[1],  reverse = True))
-        sorted_dict = json.dumps(sorted_dict)
-        cv2.putText(frame, f"| {sorted_dict}", (lenght, (i + 1) * 20), cv2.FONT_HERSHEY_COMPLEX, 0.5, info_color, 1)
+      lenght = 10 + cv2.getTextSize(info_text, cv2.FONT_HERSHEY_COMPLEX, 0.5, 1)[0][0]
+      sorted_dict = dict(sorted(det.faces.items(), key=  lambda item: item[1],  reverse = True))
+      sorted_dict = json.dumps(sorted_dict)
+      cv2.putText(frame, f"| {sorted_dict}", (lenght, (i + 1) * 20), cv2.FONT_HERSHEY_COMPLEX, 0.5, info_color, 1)
 
-    sorted_flags = dict(sorted(flags.items(), key=  lambda item: item[1],  reverse = True))
+      if det.frame_no == 1 and det.bbox_face[3] > 600:
+        home_population["Left"] += 1
+        sorted_lefter = dict(sorted(home_population.items(), key = lambda item: item[1],  reverse = True))
+        sorted_lefter = json.dumps(sorted_lefter)
+        logger.info(f"Someone has left the home ID: {det.id} | {sorted_lefter}")
+
+        
+
+
+    sorted_flags = dict(sorted(flags.items(), key = lambda item: item[1],  reverse = True))
     sorted_flags = json.dumps(sorted_flags)
-    cv2.putText(frame, f"{sorted_flags}", (10, 1000), cv2.FONT_HERSHEY_COMPLEX, 0.75, (205, 21, 125), 2, cv2.LINE_AA) #TODO DüZELT
+    cv2.putText(frame, f"{sorted_flags}", (10, 1000), cv2.FONT_HERSHEY_COMPLEX, 0.75, (205, 21, 125), 2) #TODO DüZELT
     logger.info(sorted_flags)
     cv2.imshow("frame", frame)
     saver.write(frame)
-    cv2.waitKey(1)
+    cv2.waitKey(100)
