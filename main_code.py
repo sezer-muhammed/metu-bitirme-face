@@ -87,6 +87,7 @@ for video in videos:
   forbidden_counter = 0
   last_id = 0
   last_counter = [0,0,0,0]
+  last_ids = np.array([])
 
   while True:
     counter += 1
@@ -140,7 +141,9 @@ for video in videos:
       forbidden_counter = 10
       cv2.circle(frame, (point[0], point[1]), 10, (0, 255, 255), -1)
 
+    current_ids = []
     for i, det in enumerate(Detections):
+      current_ids.append([det.id, det.bbox_face[3]])
       face_name = max(det.faces, key = det.faces.get)
       rect_color = (hash(face_name + "B")%255, hash(face_name + "G")%255, hash(face_name + "R")%255)
       cv2.rectangle(frame, (det.bbox_face[0], det.bbox_face[1]), (det.bbox_face[2], det.bbox_face[3]), rect_color, 3)
@@ -167,8 +170,25 @@ for video in videos:
         home_population["Left"] += 1
         sorted_lefter = dict(sorted(home_population.items(), key = lambda item: item[1],  reverse = True))
         sorted_lefter = json.dumps(sorted_lefter)
-        logger.info(f"Someone has left the home ID: {det.id} | {sorted_lefter}")
+        logger.info(f"Someone has left the home, ID: {det.id} | {sorted_lefter}")
 
+    current_ids = np.array(current_ids)
+    if last_ids.size > 0:
+      for id in last_ids:
+        if current_ids.size == 0:
+          if id[1] > 800:
+            home_population["Entered"] += 1
+            sorted_lefter = dict(sorted(home_population.items(), key = lambda item: item[1],  reverse = True))
+            sorted_lefter = json.dumps(sorted_lefter)
+            logger.info(f"Someone has entered the home, ID: {id[0]} | {sorted_lefter}")
+        elif (id[0] in current_ids[:, 0]) == False:
+          if id[1] > 800:
+            home_population["Entered"] += 1
+            sorted_lefter = dict(sorted(home_population.items(), key = lambda item: item[1],  reverse = True))
+            sorted_lefter = json.dumps(sorted_lefter)
+            logger.info(f"Someone has entered the home, ID: {id[0]} | {sorted_lefter}")
+
+    last_ids = current_ids
         
 
 
@@ -176,6 +196,6 @@ for video in videos:
     sorted_flags = json.dumps(sorted_flags)
     cv2.putText(frame, f"{sorted_flags}", (10, 1000), cv2.FONT_HERSHEY_COMPLEX, 0.75, (205, 21, 125), 2) #TODO DüZELT
     logger.info(sorted_flags)
-    cv2.imshow("frame", frame)
+#    cv2.imshow("frame", frame)
     saver.write(frame)
-    cv2.waitKey(100)
+#    cv2.waitKey(10)
