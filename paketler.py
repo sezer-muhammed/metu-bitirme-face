@@ -65,7 +65,7 @@ class ids_info():
     self.polygons = polygons
 
     self.print_time = print_time
-    self.model = torch.hub.load("yolov5", 'custom', path=model_path, source='local')
+    self.model = torch.hub.load("yolov5", 'custom', path=model_path, source='local', force_reload=True)
     self.model.conf = conf
     self.logger = logger
 

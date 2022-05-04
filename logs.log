@@ -5492,3 +5492,1327 @@
 2022-05-02 10:39:22,515 | INFO | Total Loop Time: 0.015, FPS: 66.97
 
 2022-05-02 10:39:22,518 | INFO | {"Pet Detection": true, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 09:24:31,894 | INFO | Home security system started. Downloading informations from drive.
+2022-05-04 09:24:31,898 | INFO | Forbidden Area Added: POLYGON ((278 833, 998 10, 0 0, 278 833))
+2022-05-04 09:24:31,899 | INFO | Forbidden Area Added: POLYGON ((1911 1073, 1356 3, 1912 3, 1911 1073))
+2022-05-04 09:24:32,095 | INFO | YOLOv5 🚀 v6.1-174-gc4cb7c6 torch 1.10.0 CUDA:0 (NVIDIA Tegra X1, 3956MiB)
+
+2022-05-04 09:24:55,668 | INFO | Fusing layers... 
+2022-05-04 09:25:12,320 | INFO | Model summary: 213 layers, 1761871 parameters, 0 gradients
+2022-05-04 09:25:13,435 | INFO | Adding AutoShape... 
+2022-05-04 09:25:28,121 | INFO | Trying to upload image faces/residents/Sevval_2.jpg. If there is a problem please delete this file.
+2022-05-04 09:25:33,388 | INFO | Trying to upload image faces/residents/Sevval_4.jpg. If there is a problem please delete this file.
+2022-05-04 09:25:33,579 | INFO | Trying to upload image faces/residents/Sezer_2.jpg. If there is a problem please delete this file.
+2022-05-04 09:25:33,833 | INFO | Trying to upload image faces/residents/Sevval_5.jpg. If there is a problem please delete this file.
+2022-05-04 09:25:33,989 | INFO | Trying to upload image faces/residents/Sezer_3.jpg. If there is a problem please delete this file.
+2022-05-04 09:25:34,429 | INFO | Trying to upload image faces/residents/Sevval_0.jpg. If there is a problem please delete this file.
+2022-05-04 09:25:36,112 | INFO | Trying to upload image faces/residents/Sezer_4.jpg. If there is a problem please delete this file.
+2022-05-04 09:25:36,454 | INFO | Trying to upload image faces/residents/Sevval_6.jpg. If there is a problem please delete this file.
+2022-05-04 09:25:36,746 | INFO | Trying to upload image faces/residents/Sevval_9.jpg. If there is a problem please delete this file.
+2022-05-04 09:25:37,126 | INFO | Trying to upload image faces/residents/Sezer_7.jpg. If there is a problem please delete this file.
+2022-05-04 09:25:37,316 | INFO | Trying to upload image faces/residents/Sevval_8.jpg. If there is a problem please delete this file.
+2022-05-04 09:25:39,018 | INFO | Trying to upload image faces/residents/Sezer_0.jpg. If there is a problem please delete this file.
+2022-05-04 09:25:39,320 | INFO | Trying to upload image faces/residents/Sevval_3.jpg. If there is a problem please delete this file.
+2022-05-04 09:25:39,751 | INFO | Trying to upload image faces/residents/Sevval_7.jpg. If there is a problem please delete this file.
+2022-05-04 09:25:40,100 | INFO | Trying to upload image faces/residents/Sevval_1.jpg. If there is a problem please delete this file.
+2022-05-04 09:25:40,384 | INFO | Trying to upload image faces/residents/Sezer_1.jpg. If there is a problem please delete this file.
+2022-05-04 09:29:48,750 | INFO | Home security system started. Downloading informations from drive.
+2022-05-04 09:29:48,755 | INFO | Forbidden Area Added: POLYGON ((278 833, 998 10, 0 0, 278 833))
+2022-05-04 09:29:48,756 | INFO | Forbidden Area Added: POLYGON ((1911 1073, 1356 3, 1912 3, 1911 1073))
+2022-05-04 09:29:48,993 | INFO | YOLOv5 🚀 v6.1-174-gc4cb7c6 torch 1.10.0 CUDA:0 (NVIDIA Tegra X1, 3956MiB)
+
+2022-05-04 09:30:02,636 | INFO | Fusing layers... 
+2022-05-04 09:30:22,253 | INFO | Model summary: 213 layers, 1761871 parameters, 0 gradients
+2022-05-04 09:30:23,308 | INFO | Adding AutoShape... 
+2022-05-04 09:30:33,560 | INFO | Trying to upload image faces/residents/Sevval_2.jpg. If there is a problem please delete this file.
+2022-05-04 09:30:38,064 | INFO | Trying to upload image faces/residents/Sevval_4.jpg. If there is a problem please delete this file.
+2022-05-04 09:30:38,230 | INFO | Trying to upload image faces/residents/Sezer_2.jpg. If there is a problem please delete this file.
+2022-05-04 09:30:38,395 | INFO | Trying to upload image faces/residents/Sevval_5.jpg. If there is a problem please delete this file.
+2022-05-04 09:30:38,617 | INFO | Trying to upload image faces/residents/Sezer_3.jpg. If there is a problem please delete this file.
+2022-05-04 09:30:39,275 | INFO | Trying to upload image faces/residents/Sevval_0.jpg. If there is a problem please delete this file.
+2022-05-04 09:30:40,704 | INFO | Trying to upload image faces/residents/Sezer_4.jpg. If there is a problem please delete this file.
+2022-05-04 09:30:41,031 | INFO | Trying to upload image faces/residents/Sevval_6.jpg. If there is a problem please delete this file.
+2022-05-04 09:30:41,280 | INFO | Trying to upload image faces/residents/Sevval_9.jpg. If there is a problem please delete this file.
+2022-05-04 09:30:41,552 | INFO | Trying to upload image faces/residents/Sezer_7.jpg. If there is a problem please delete this file.
+2022-05-04 09:30:41,718 | INFO | Trying to upload image faces/residents/Sevval_8.jpg. If there is a problem please delete this file.
+2022-05-04 09:30:41,892 | INFO | Trying to upload image faces/residents/Sezer_0.jpg. If there is a problem please delete this file.
+2022-05-04 09:30:42,137 | INFO | Trying to upload image faces/residents/Sevval_3.jpg. If there is a problem please delete this file.
+2022-05-04 09:30:42,498 | INFO | Trying to upload image faces/residents/Sevval_7.jpg. If there is a problem please delete this file.
+2022-05-04 09:30:42,780 | INFO | Trying to upload image faces/residents/Sevval_1.jpg. If there is a problem please delete this file.
+2022-05-04 09:30:42,955 | INFO | Trying to upload image faces/residents/Sezer_1.jpg. If there is a problem please delete this file.
+2022-05-04 09:33:11,392 | INFO | Home security system started. Downloading informations from drive.
+2022-05-04 09:33:11,417 | INFO | Forbidden Area Added: POLYGON ((278 833, 998 10, 0 0, 278 833))
+2022-05-04 09:33:11,427 | INFO | Forbidden Area Added: POLYGON ((1911 1073, 1356 3, 1912 3, 1911 1073))
+2022-05-04 09:33:12,075 | INFO | YOLOv5 🚀 v6.1-174-gc4cb7c6 torch 1.10.0 CUDA:0 (NVIDIA Tegra X1, 3956MiB)
+
+2022-05-04 09:34:06,076 | INFO | Fusing layers... 
+2022-05-04 09:34:28,303 | INFO | Model summary: 213 layers, 1761871 parameters, 0 gradients
+2022-05-04 09:34:28,894 | INFO | Adding AutoShape... 
+2022-05-04 09:34:33,978 | INFO | Trying to upload image faces/residents/Sevval_2.jpg. If there is a problem please delete this file.
+2022-05-04 09:34:37,974 | INFO | Trying to upload image faces/residents/Sevval_4.jpg. If there is a problem please delete this file.
+2022-05-04 09:34:38,336 | INFO | Trying to upload image faces/residents/Sezer_2.jpg. If there is a problem please delete this file.
+2022-05-04 09:34:38,507 | INFO | Trying to upload image faces/residents/Sevval_5.jpg. If there is a problem please delete this file.
+2022-05-04 09:34:38,831 | INFO | Trying to upload image faces/residents/Sezer_3.jpg. If there is a problem please delete this file.
+2022-05-04 09:34:39,027 | INFO | Trying to upload image faces/residents/Sevval_0.jpg. If there is a problem please delete this file.
+2022-05-04 09:34:40,479 | INFO | Trying to upload image faces/residents/Sezer_4.jpg. If there is a problem please delete this file.
+2022-05-04 09:34:40,929 | INFO | Trying to upload image faces/residents/Sevval_6.jpg. If there is a problem please delete this file.
+2022-05-04 09:43:56,913 | INFO | Home security system started. Downloading informations from drive.
+2022-05-04 09:43:56,919 | INFO | Forbidden Area Added: POLYGON ((278 833, 998 10, 0 0, 278 833))
+2022-05-04 09:43:56,921 | INFO | Forbidden Area Added: POLYGON ((1911 1073, 1356 3, 1912 3, 1911 1073))
+2022-05-04 09:43:57,110 | INFO | YOLOv5 🚀 v6.1-174-gc4cb7c6 torch 1.10.0 CUDA:0 (NVIDIA Tegra X1, 3956MiB)
+
+2022-05-04 09:45:25,434 | INFO | Fusing layers... 
+2022-05-04 09:45:49,930 | INFO | Model summary: 213 layers, 1761871 parameters, 0 gradients
+2022-05-04 09:45:50,998 | INFO | Adding AutoShape... 
+2022-05-04 09:45:58,823 | INFO | Trying to upload image faces/residents/Sevval_2.jpg. If there is a problem please delete this file.
+2022-05-04 09:46:07,954 | INFO | Trying to upload image faces/residents/Sevval_4.jpg. If there is a problem please delete this file.
+2022-05-04 09:46:08,131 | INFO | Trying to upload image faces/residents/Sezer_2.jpg. If there is a problem please delete this file.
+2022-05-04 09:46:08,360 | INFO | Trying to upload image faces/residents/Sevval_5.jpg. If there is a problem please delete this file.
+2022-05-04 09:46:08,622 | INFO | Trying to upload image faces/residents/Sezer_3.jpg. If there is a problem please delete this file.
+2022-05-04 09:46:08,830 | INFO | Trying to upload image faces/residents/Sevval_0.jpg. If there is a problem please delete this file.
+2022-05-04 09:46:10,488 | INFO | Trying to upload image faces/residents/Sezer_4.jpg. If there is a problem please delete this file.
+2022-05-04 09:46:10,893 | INFO | Trying to upload image faces/residents/Sevval_6.jpg. If there is a problem please delete this file.
+2022-05-04 09:46:11,163 | INFO | Trying to upload image faces/residents/Sevval_9.jpg. If there is a problem please delete this file.
+2022-05-04 09:46:11,417 | INFO | Trying to upload image faces/residents/Sezer_7.jpg. If there is a problem please delete this file.
+2022-05-04 09:46:11,608 | INFO | Trying to upload image faces/residents/Sevval_8.jpg. If there is a problem please delete this file.
+2022-05-04 09:46:13,223 | INFO | Trying to upload image faces/residents/Sezer_0.jpg. If there is a problem please delete this file.
+2022-05-04 09:46:13,409 | INFO | Trying to upload image faces/residents/Sevval_3.jpg. If there is a problem please delete this file.
+2022-05-04 09:46:13,784 | INFO | Trying to upload image faces/residents/Sevval_7.jpg. If there is a problem please delete this file.
+2022-05-04 09:46:14,169 | INFO | Trying to upload image faces/residents/Sevval_1.jpg. If there is a problem please delete this file.
+2022-05-04 09:46:14,330 | INFO | Trying to upload image faces/residents/Sezer_1.jpg. If there is a problem please delete this file.
+2022-05-04 09:49:24,684 | INFO | Home security system started. Downloading informations from drive.
+2022-05-04 09:49:24,690 | INFO | Forbidden Area Added: POLYGON ((278 833, 998 10, 0 0, 278 833))
+2022-05-04 09:49:24,691 | INFO | Forbidden Area Added: POLYGON ((1911 1073, 1356 3, 1912 3, 1911 1073))
+2022-05-04 09:50:31,656 | INFO | Home security system started. Downloading informations from drive.
+2022-05-04 09:50:31,659 | INFO | Forbidden Area Added: POLYGON ((278 833, 998 10, 0 0, 278 833))
+2022-05-04 09:50:31,661 | INFO | Forbidden Area Added: POLYGON ((1911 1073, 1356 3, 1912 3, 1911 1073))
+2022-05-04 09:52:35,214 | INFO | Home security system started. Downloading informations from drive.
+2022-05-04 09:52:35,218 | INFO | Forbidden Area Added: POLYGON ((278 833, 998 10, 0 0, 278 833))
+2022-05-04 09:52:35,219 | INFO | Forbidden Area Added: POLYGON ((1911 1073, 1356 3, 1912 3, 1911 1073))
+2022-05-04 09:53:07,792 | INFO | Home security system started. Downloading informations from drive.
+2022-05-04 09:53:07,796 | INFO | Forbidden Area Added: POLYGON ((278 833, 998 10, 0 0, 278 833))
+2022-05-04 09:53:07,797 | INFO | Forbidden Area Added: POLYGON ((1911 1073, 1356 3, 1912 3, 1911 1073))
+2022-05-04 09:55:45,811 | INFO | Home security system started. Downloading informations from drive.
+2022-05-04 09:55:45,814 | INFO | Forbidden Area Added: POLYGON ((278 833, 998 10, 0 0, 278 833))
+2022-05-04 09:55:45,816 | INFO | Forbidden Area Added: POLYGON ((1911 1073, 1356 3, 1912 3, 1911 1073))
+2022-05-04 09:58:05,976 | INFO | Home security system started. Downloading informations from drive.
+2022-05-04 09:58:05,980 | INFO | Forbidden Area Added: POLYGON ((278 833, 998 10, 0 0, 278 833))
+2022-05-04 09:58:05,981 | INFO | Forbidden Area Added: POLYGON ((1911 1073, 1356 3, 1912 3, 1911 1073))
+2022-05-04 09:58:06,132 | INFO | YOLOv5 🚀 v6.1-174-gc4cb7c6 torch 1.10.0 CUDA:0 (NVIDIA Tegra X1, 3956MiB)
+
+2022-05-04 09:58:54,511 | INFO | Fusing layers... 
+2022-05-04 09:59:17,973 | INFO | Model summary: 213 layers, 1761871 parameters, 0 gradients
+2022-05-04 09:59:19,163 | INFO | Adding AutoShape... 
+2022-05-04 09:59:35,503 | INFO | Trying to upload image faces/residents/Sevval_2.jpg. If there is a problem please delete this file.
+2022-05-04 09:59:45,774 | INFO | Trying to upload image faces/residents/Sevval_4.jpg. If there is a problem please delete this file.
+2022-05-04 09:59:45,934 | INFO | Trying to upload image faces/residents/Sezer_2.jpg. If there is a problem please delete this file.
+2022-05-04 09:59:46,062 | INFO | Trying to upload image faces/residents/Sevval_5.jpg. If there is a problem please delete this file.
+2022-05-04 09:59:46,453 | INFO | Trying to upload image faces/residents/Sezer_3.jpg. If there is a problem please delete this file.
+2022-05-04 09:59:46,723 | INFO | Trying to upload image faces/residents/Sevval_0.jpg. If there is a problem please delete this file.
+2022-05-04 09:59:48,177 | INFO | Trying to upload image faces/residents/Sezer_4.jpg. If there is a problem please delete this file.
+2022-05-04 09:59:48,503 | INFO | Trying to upload image faces/residents/Sevval_6.jpg. If there is a problem please delete this file.
+2022-05-04 09:59:48,771 | INFO | Trying to upload image faces/residents/Sevval_9.jpg. If there is a problem please delete this file.
+2022-05-04 09:59:49,029 | INFO | Trying to upload image faces/residents/Sezer_7.jpg. If there is a problem please delete this file.
+2022-05-04 09:59:49,269 | INFO | Trying to upload image faces/residents/Sevval_8.jpg. If there is a problem please delete this file.
+2022-05-04 09:59:49,726 | INFO | Trying to upload image faces/residents/Sezer_0.jpg. If there is a problem please delete this file.
+2022-05-04 09:59:49,905 | INFO | Trying to upload image faces/residents/Sevval_3.jpg. If there is a problem please delete this file.
+2022-05-04 09:59:50,265 | INFO | Trying to upload image faces/residents/Sevval_7.jpg. If there is a problem please delete this file.
+2022-05-04 09:59:50,515 | INFO | Trying to upload image faces/residents/Sevval_1.jpg. If there is a problem please delete this file.
+2022-05-04 09:59:50,672 | INFO | Trying to upload image faces/residents/Sezer_1.jpg. If there is a problem please delete this file.
+2022-05-04 10:05:13,880 | INFO | Home security system started. Downloading informations from drive.
+2022-05-04 10:05:13,907 | INFO | Forbidden Area Added: POLYGON ((278 833, 998 10, 0 0, 278 833))
+2022-05-04 10:05:13,908 | INFO | Forbidden Area Added: POLYGON ((1911 1073, 1356 3, 1912 3, 1911 1073))
+2022-05-04 10:05:14,174 | INFO | YOLOv5 🚀 v6.1-174-gc4cb7c6 torch 1.10.0 CUDA:0 (NVIDIA Tegra X1, 3956MiB)
+
+2022-05-04 10:05:48,938 | INFO | Fusing layers... 
+2022-05-04 10:06:19,669 | INFO | Model summary: 213 layers, 1761871 parameters, 0 gradients
+2022-05-04 10:06:22,195 | INFO | Adding AutoShape... 
+2022-05-04 10:06:33,876 | INFO | Trying to upload image faces/residents/Sevval_2.jpg. If there is a problem please delete this file.
+2022-05-04 10:06:48,652 | INFO | Trying to upload image faces/residents/Sevval_4.jpg. If there is a problem please delete this file.
+2022-05-04 10:06:51,620 | INFO | Trying to upload image faces/residents/Sezer_2.jpg. If there is a problem please delete this file.
+2022-05-04 10:06:51,739 | INFO | Trying to upload image faces/residents/Sevval_5.jpg. If there is a problem please delete this file.
+2022-05-04 10:06:52,096 | INFO | Trying to upload image faces/residents/Sezer_3.jpg. If there is a problem please delete this file.
+2022-05-04 10:06:52,348 | INFO | Trying to upload image faces/residents/Sevval_0.jpg. If there is a problem please delete this file.
+2022-05-04 10:06:53,912 | INFO | Trying to upload image faces/residents/Sezer_4.jpg. If there is a problem please delete this file.
+2022-05-04 10:06:54,461 | INFO | Trying to upload image faces/residents/Sevval_6.jpg. If there is a problem please delete this file.
+2022-05-04 10:06:54,719 | INFO | Trying to upload image faces/residents/Sevval_9.jpg. If there is a problem please delete this file.
+2022-05-04 10:06:55,109 | INFO | Trying to upload image faces/residents/Sezer_7.jpg. If there is a problem please delete this file.
+2022-05-04 10:06:55,394 | INFO | Trying to upload image faces/residents/Sevval_8.jpg. If there is a problem please delete this file.
+2022-05-04 10:06:55,619 | INFO | Trying to upload image faces/residents/Sezer_0.jpg. If there is a problem please delete this file.
+2022-05-04 10:06:55,873 | INFO | Trying to upload image faces/residents/Sevval_3.jpg. If there is a problem please delete this file.
+2022-05-04 10:06:56,217 | INFO | Trying to upload image faces/residents/Sevval_7.jpg. If there is a problem please delete this file.
+2022-05-04 10:06:56,420 | INFO | Trying to upload image faces/residents/Sevval_1.jpg. If there is a problem please delete this file.
+2022-05-04 10:06:56,557 | INFO | Trying to upload image faces/residents/Sezer_1.jpg. If there is a problem please delete this file.
+2022-05-04 11:06:44,077 | INFO | Home security system started. Downloading informations from drive.
+2022-05-04 11:06:44,083 | INFO | Forbidden Area Added: POLYGON ((92 277, 332 3, 0 0, 92 277))
+2022-05-04 11:06:44,084 | INFO | Forbidden Area Added: POLYGON ((637 357, 452 1, 637 1, 637 357))
+2022-05-04 11:06:44,305 | INFO | YOLOv5 🚀 v6.1-174-gc4cb7c6 torch 1.10.0 CUDA:0 (NVIDIA Tegra X1, 3956MiB)
+
+2022-05-04 11:06:58,808 | INFO | Fusing layers... 
+2022-05-04 11:07:06,225 | INFO | Model summary: 213 layers, 1761871 parameters, 0 gradients
+2022-05-04 11:07:06,559 | INFO | Adding AutoShape... 
+2022-05-04 11:07:11,360 | INFO | Trying to upload image faces/residents/Sevval_2.jpg. If there is a problem please delete this file.
+2022-05-04 11:07:14,814 | INFO | Trying to upload image faces/residents/Sevval_4.jpg. If there is a problem please delete this file.
+2022-05-04 11:07:14,965 | INFO | Trying to upload image faces/residents/Sezer_2.jpg. If there is a problem please delete this file.
+2022-05-04 11:07:15,084 | INFO | Trying to upload image faces/residents/Sevval_5.jpg. If there is a problem please delete this file.
+2022-05-04 11:07:15,210 | INFO | Trying to upload image faces/residents/Sezer_3.jpg. If there is a problem please delete this file.
+2022-05-04 11:07:15,397 | INFO | Trying to upload image faces/residents/Sevval_0.jpg. If there is a problem please delete this file.
+2022-05-04 11:07:16,822 | INFO | Trying to upload image faces/residents/Sezer_4.jpg. If there is a problem please delete this file.
+2022-05-04 11:07:17,136 | INFO | Trying to upload image faces/residents/Sevval_6.jpg. If there is a problem please delete this file.
+2022-05-04 11:07:17,366 | INFO | Trying to upload image faces/residents/Sevval_9.jpg. If there is a problem please delete this file.
+2022-05-04 11:07:17,563 | INFO | Trying to upload image faces/residents/Sezer_7.jpg. If there is a problem please delete this file.
+2022-05-04 11:07:17,714 | INFO | Trying to upload image faces/residents/Sevval_8.jpg. If there is a problem please delete this file.
+2022-05-04 11:07:17,860 | INFO | Trying to upload image faces/residents/Sezer_0.jpg. If there is a problem please delete this file.
+2022-05-04 11:07:18,033 | INFO | Trying to upload image faces/residents/Sevval_3.jpg. If there is a problem please delete this file.
+2022-05-04 11:07:18,369 | INFO | Trying to upload image faces/residents/Sevval_7.jpg. If there is a problem please delete this file.
+2022-05-04 11:07:18,576 | INFO | Trying to upload image faces/residents/Sevval_1.jpg. If there is a problem please delete this file.
+2022-05-04 11:07:18,706 | INFO | Trying to upload image faces/residents/Sezer_1.jpg. If there is a problem please delete this file.
+2022-05-04 11:07:48,271 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:02,552 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:03,532 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:03,778 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:04,003 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:04,220 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:04,761 | WARNING | WARNING: NMS time limit 0.130s exceeded
+2022-05-04 11:08:06,919 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:10,395 | INFO | Someone has left the home, ID: 1 | {"Left": 1, "Entered": 0}
+2022-05-04 11:08:10,397 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:11,103 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:11,475 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:11,760 | INFO | Someone has entered the home, ID: 1 | {"Left": 1, "Entered": 1}
+2022-05-04 11:08:11,761 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:11,980 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:12,198 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:12,417 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:12,734 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:13,139 | INFO | Someone has left the home, ID: 2 | {"Left": 2, "Entered": 1}
+2022-05-04 11:08:13,139 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:13,578 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:14,079 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:14,523 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:14,994 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:15,465 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:15,907 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:16,358 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:16,831 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:17,350 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:17,833 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:18,310 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:18,786 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:19,262 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:19,715 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:20,164 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:20,637 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:21,034 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:21,339 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:21,569 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:21,795 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:22,020 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:22,244 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:22,472 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:22,717 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:22,976 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:23,199 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:23,422 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:23,652 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:23,878 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:24,104 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:24,329 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:24,554 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:24,777 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:25,000 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:25,225 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:25,449 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:25,672 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:25,895 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:26,120 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:26,342 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:26,560 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:26,777 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:27,002 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:27,224 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:27,449 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:27,672 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:27,896 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:28,119 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:28,345 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:28,567 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:28,789 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:29,014 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:29,237 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:29,461 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:29,685 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:29,910 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:30,135 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:30,360 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:30,590 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:30,809 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:31,029 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:31,255 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:31,481 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:31,706 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:31,929 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:32,149 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:32,368 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:32,590 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:32,811 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:33,029 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:33,248 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:33,471 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:33,697 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:34,018 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:34,235 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:34,453 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:34,670 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:34,895 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:35,221 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:35,447 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:35,673 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:35,897 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:36,120 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:36,341 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:36,565 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:36,788 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:37,011 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:37,231 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:37,457 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:37,683 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:38,034 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:38,257 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:38,481 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:38,697 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:38,915 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:39,135 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:39,353 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:39,570 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:39,791 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:40,013 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:40,235 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:40,459 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:40,681 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:40,908 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:41,228 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:41,688 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:42,182 | INFO | Someone has left the home, ID: 7 | {"Left": 3, "Entered": 1}
+2022-05-04 11:08:42,183 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:42,696 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:43,154 | INFO | Someone has entered the home, ID: 7 | {"Left": 3, "Entered": 2}
+2022-05-04 11:08:43,155 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:43,622 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:44,098 | INFO | Someone has left the home, ID: 8 | {"Left": 4, "Entered": 2}
+2022-05-04 11:08:44,099 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:44,581 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:45,079 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:45,557 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:08:46,095 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:11:15,529 | INFO | Home security system started. Downloading informations from drive.
+2022-05-04 11:11:15,541 | INFO | Forbidden Area Added: POLYGON ((92 277, 332 3, 0 0, 92 277))
+2022-05-04 11:11:15,542 | INFO | Forbidden Area Added: POLYGON ((637 357, 452 1, 637 1, 637 357))
+2022-05-04 11:11:15,782 | INFO | YOLOv5 🚀 v6.1-174-gc4cb7c6 torch 1.10.0 CUDA:0 (NVIDIA Tegra X1, 3956MiB)
+
+2022-05-04 11:11:28,545 | INFO | Fusing layers... 
+2022-05-04 11:11:31,787 | INFO | Model summary: 213 layers, 1761871 parameters, 0 gradients
+2022-05-04 11:11:31,862 | INFO | Adding AutoShape... 
+2022-05-04 11:11:35,704 | INFO | Trying to upload image faces/residents/Sevval_2.jpg. If there is a problem please delete this file.
+2022-05-04 11:11:35,998 | INFO | Trying to upload image faces/residents/Sevval_4.jpg. If there is a problem please delete this file.
+2022-05-04 11:11:36,106 | INFO | Trying to upload image faces/residents/Sezer_2.jpg. If there is a problem please delete this file.
+2022-05-04 11:11:36,210 | INFO | Trying to upload image faces/residents/Sevval_5.jpg. If there is a problem please delete this file.
+2022-05-04 11:11:36,356 | INFO | Trying to upload image faces/residents/Sezer_3.jpg. If there is a problem please delete this file.
+2022-05-04 11:11:36,549 | INFO | Trying to upload image faces/residents/Sevval_0.jpg. If there is a problem please delete this file.
+2022-05-04 11:11:37,965 | INFO | Trying to upload image faces/residents/Sezer_4.jpg. If there is a problem please delete this file.
+2022-05-04 11:11:38,268 | INFO | Trying to upload image faces/residents/Sevval_6.jpg. If there is a problem please delete this file.
+2022-05-04 11:11:38,476 | INFO | Trying to upload image faces/residents/Sevval_9.jpg. If there is a problem please delete this file.
+2022-05-04 11:11:38,644 | INFO | Trying to upload image faces/residents/Sezer_7.jpg. If there is a problem please delete this file.
+2022-05-04 11:11:38,795 | INFO | Trying to upload image faces/residents/Sevval_8.jpg. If there is a problem please delete this file.
+2022-05-04 11:11:38,933 | INFO | Trying to upload image faces/residents/Sezer_0.jpg. If there is a problem please delete this file.
+2022-05-04 11:11:39,100 | INFO | Trying to upload image faces/residents/Sevval_3.jpg. If there is a problem please delete this file.
+2022-05-04 11:11:39,453 | INFO | Trying to upload image faces/residents/Sevval_7.jpg. If there is a problem please delete this file.
+2022-05-04 11:11:39,657 | INFO | Trying to upload image faces/residents/Sevval_1.jpg. If there is a problem please delete this file.
+2022-05-04 11:11:39,783 | INFO | Trying to upload image faces/residents/Sezer_1.jpg. If there is a problem please delete this file.
+2022-05-04 11:11:57,861 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:12,029 | WARNING | WARNING: NMS time limit 0.130s exceeded
+2022-05-04 11:12:14,955 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:17,315 | WARNING | WARNING: NMS time limit 0.130s exceeded
+2022-05-04 11:12:21,850 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:23,202 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:23,728 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:24,212 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:24,670 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:25,313 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:25,765 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:26,273 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:26,759 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:27,199 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:27,683 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:28,138 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:28,599 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:29,069 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:29,528 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:29,988 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:30,452 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:30,917 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:31,438 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:31,884 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:32,455 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:32,960 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:33,441 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:33,937 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:34,400 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:34,850 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:35,301 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:35,789 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:36,283 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:36,737 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:37,232 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:37,617 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:37,842 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:38,078 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:38,311 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:38,544 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:38,778 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:39,010 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:39,233 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:39,452 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:39,671 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:39,890 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:40,109 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:40,329 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:40,547 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:40,766 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:40,985 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:41,205 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:41,424 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:41,641 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:41,860 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:42,078 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:42,297 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:42,514 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:42,733 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:42,952 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:43,170 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:43,388 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:43,606 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:43,824 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:44,043 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:44,261 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:44,481 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:44,699 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:44,917 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:45,149 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:45,374 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:45,598 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:45,821 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:46,160 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:46,387 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:46,725 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:46,948 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:47,296 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:47,522 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:47,748 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:48,089 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:48,519 | INFO | Someone has left the home, ID: 14 | {"Left": 1, "Entered": 0}
+2022-05-04 11:12:48,520 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:49,014 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:49,508 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:49,974 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:50,466 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:50,929 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:51,424 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:51,880 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:52,371 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:52,941 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:53,393 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:53,861 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:54,402 | INFO | {"Someone Here For a Long Time": true, "Pet Detection": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:54,873 | INFO | {"Someone Here For a Long Time": true, "Pet Detection": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:55,326 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:55,780 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:56,255 | INFO | {"Someone Here For a Long Time": true, "Pet Detection": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:56,755 | INFO | {"Someone Here For a Long Time": true, "Pet Detection": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:57,247 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:57,687 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:58,179 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:58,656 | INFO | Someone has left the home, ID: 17 | {"Left": 2, "Entered": 0}
+2022-05-04 11:12:58,658 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:59,129 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:12:59,599 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:00,080 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:00,554 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:00,997 | INFO | Someone has entered the home, ID: 17 | {"Left": 2, "Entered": 1}
+2022-05-04 11:13:00,998 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:01,469 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:01,909 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:02,410 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:02,867 | INFO | Someone has left the home, ID: 20 | {"Left": 3, "Entered": 1}
+2022-05-04 11:13:02,868 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:03,359 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:03,825 | INFO | Someone has entered the home, ID: 20 | {"Left": 3, "Entered": 2}
+2022-05-04 11:13:03,826 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:04,291 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:04,747 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:05,290 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:05,644 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:06,012 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:06,504 | INFO | Someone has left the home, ID: 22 | {"Left": 4, "Entered": 2}
+2022-05-04 11:13:06,505 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:06,981 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:07,450 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:07,913 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:08,431 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:08,904 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:09,371 | INFO | Someone has left the home, ID: 25 | {"Left": 5, "Entered": 2}
+2022-05-04 11:13:09,372 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:09,869 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:10,326 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:10,788 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:11,355 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:11,829 | INFO | Someone has entered the home, ID: 25 | {"Left": 5, "Entered": 3}
+2022-05-04 11:13:11,830 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:12,299 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:12,815 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:13,277 | INFO | Someone has left the home, ID: 27 | {"Left": 6, "Entered": 3}
+2022-05-04 11:13:13,278 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:13,738 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:14,191 | INFO | Someone has entered the home, ID: 27 | {"Left": 6, "Entered": 4}
+2022-05-04 11:13:14,192 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:14,669 | INFO | Someone has left the home, ID: 28 | {"Left": 7, "Entered": 4}
+2022-05-04 11:13:14,670 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:15,139 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:15,595 | INFO | Someone has entered the home, ID: 28 | {"Left": 7, "Entered": 5}
+2022-05-04 11:13:15,596 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:16,101 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:16,664 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:17,167 | INFO | Someone has entered the home, ID: 29 | {"Left": 7, "Entered": 6}
+2022-05-04 11:13:17,168 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:17,663 | INFO | Someone has left the home, ID: 30 | {"Left": 8, "Entered": 6}
+2022-05-04 11:13:17,664 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:18,173 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:18,630 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:19,101 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:19,588 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:20,055 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:20,508 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:21,006 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:21,471 | INFO | Someone has entered the home, ID: 30 | {"Left": 8, "Entered": 7}
+2022-05-04 11:13:21,472 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:21,981 | INFO | Someone has left the home, ID: 31 | {"Left": 9, "Entered": 7}
+2022-05-04 11:13:21,982 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:22,424 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:22,910 | INFO | Someone has entered the home, ID: 31 | {"Left": 9, "Entered": 8}
+2022-05-04 11:13:22,911 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:23,371 | INFO | Someone has left the home, ID: 33 | {"Left": 10, "Entered": 8}
+2022-05-04 11:13:23,372 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:23,855 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:24,344 | INFO | Someone has entered the home, ID: 33 | {"Left": 10, "Entered": 9}
+2022-05-04 11:13:24,345 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:24,845 | INFO | Someone has left the home, ID: 34 | {"Left": 11, "Entered": 9}
+2022-05-04 11:13:24,846 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:25,310 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:25,795 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:26,259 | INFO | Someone has entered the home, ID: 34 | {"Left": 11, "Entered": 10}
+2022-05-04 11:13:26,260 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:26,709 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:27,229 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:27,730 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:28,182 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:28,659 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:29,224 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:29,669 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:30,168 | INFO | Someone has entered the home, ID: 23 | {"Left": 11, "Entered": 11}
+2022-05-04 11:13:30,169 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:30,641 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:31,088 | INFO | Someone has left the home, ID: 37 | {"Left": 12, "Entered": 11}
+2022-05-04 11:13:31,089 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:31,581 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:32,027 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:32,519 | INFO | Someone has entered the home, ID: 37 | {"Left": 12, "Entered": 12}
+2022-05-04 11:13:32,520 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:33,022 | INFO | Someone has left the home, ID: 38 | {"Left": 13, "Entered": 12}
+2022-05-04 11:13:33,023 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:33,479 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:33,948 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:34,409 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:34,884 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:35,445 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:35,959 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:36,424 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:36,883 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:37,379 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:37,835 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:38,352 | INFO | {"Someone Here For a Long Time": true, "Pet Detection": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:38,816 | INFO | {"Someone Here For a Long Time": true, "Pet Detection": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:39,316 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:39,760 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:40,212 | INFO | Someone has entered the home, ID: 38 | {"Left": 13, "Entered": 13}
+2022-05-04 11:13:40,213 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:40,727 | INFO | Someone has left the home, ID: 39 | {"Left": 14, "Entered": 13}
+2022-05-04 11:13:40,729 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:41,225 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:41,683 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:42,119 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:42,618 | INFO | Someone has entered the home, ID: 39 | {"Left": 14, "Entered": 14}
+2022-05-04 11:13:42,622 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:43,114 | INFO | Someone has left the home, ID: 40 | {"Left": 15, "Entered": 14}
+2022-05-04 11:13:43,115 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:43,617 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:44,085 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:44,599 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:45,057 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:45,561 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:46,002 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:46,447 | INFO | Someone has entered the home, ID: 40 | {"Left": 15, "Entered": 15}
+2022-05-04 11:13:46,448 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:46,931 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:47,409 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:47,755 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:48,045 | INFO | Someone has entered the home, ID: 36 | {"Entered": 16, "Left": 15}
+2022-05-04 11:13:48,046 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:48,372 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:48,605 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:48,932 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:49,160 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:49,489 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:49,908 | INFO | Someone has left the home, ID: 43 | {"Left": 16, "Entered": 16}
+2022-05-04 11:13:49,909 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:50,349 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:50,739 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:51,090 | INFO | Someone has entered the home, ID: 43 | {"Entered": 17, "Left": 16}
+2022-05-04 11:13:51,091 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:51,512 | INFO | Someone has left the home, ID: 44 | {"Left": 17, "Entered": 17}
+2022-05-04 11:13:51,513 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:51,952 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:52,392 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:52,871 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:53,352 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:53,837 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:54,295 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:54,780 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:55,133 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:55,529 | INFO | Someone has entered the home, ID: 44 | {"Entered": 18, "Left": 17}
+2022-05-04 11:13:55,530 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:55,943 | INFO | Someone has left the home, ID: 45 | {"Left": 18, "Entered": 18}
+2022-05-04 11:13:55,944 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:56,383 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:56,855 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:57,236 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:57,589 | INFO | Someone has entered the home, ID: 45 | {"Entered": 19, "Left": 18}
+2022-05-04 11:13:57,590 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:58,005 | INFO | Someone has left the home, ID: 46 | {"Left": 19, "Entered": 19}
+2022-05-04 11:13:58,009 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:58,449 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:58,936 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:59,382 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:13:59,765 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:00,060 | INFO | Someone has entered the home, ID: 46 | {"Entered": 20, "Left": 19}
+2022-05-04 11:14:00,061 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:00,286 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:00,613 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:01,026 | INFO | Someone has left the home, ID: 47 | {"Left": 20, "Entered": 20}
+2022-05-04 11:14:01,027 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:01,470 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:01,924 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:02,419 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:02,859 | INFO | Someone has left the home, ID: 48 | {"Left": 21, "Entered": 20}
+2022-05-04 11:14:02,860 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:03,303 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:03,743 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:04,181 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:04,617 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:05,060 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:05,547 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:06,011 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:06,504 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:07,003 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:07,522 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:07,983 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:08,443 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:08,951 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:09,434 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:09,876 | INFO | Someone has entered the home, ID: 48 | {"Left": 21, "Entered": 21}
+2022-05-04 11:14:09,877 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:10,361 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:10,800 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:11,241 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:11,700 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:12,194 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:12,638 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:12,959 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:13,327 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:13,555 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:13,890 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:14,303 | INFO | Someone has left the home, ID: 53 | {"Left": 22, "Entered": 21}
+2022-05-04 11:14:14,304 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:14,760 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:15,102 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:15,397 | INFO | Someone has entered the home, ID: 53 | {"Left": 22, "Entered": 22}
+2022-05-04 11:14:15,398 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:15,622 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:15,845 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:16,069 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:16,293 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:16,518 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:16,742 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:16,966 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:17,190 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:17,414 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:17,641 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:17,866 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:18,089 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:18,428 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:18,843 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:19,353 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:19,904 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:20,403 | INFO | Someone has left the home, ID: 55 | {"Left": 23, "Entered": 22}
+2022-05-04 11:14:20,404 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:20,865 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:21,367 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:21,827 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:22,401 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:22,963 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:23,432 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:23,883 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:24,325 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:24,820 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:25,351 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:25,812 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:26,254 | INFO | {"Someone Here For a Long Time": true, "Pet Detection": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:26,776 | INFO | {"Someone Here For a Long Time": true, "Pet Detection": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:27,218 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:27,665 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:28,116 | INFO | {"Someone Here For a Long Time": true, "Pet Detection": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:28,569 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:29,056 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:29,445 | INFO | Someone has entered the home, ID: 55 | {"Left": 23, "Entered": 23}
+2022-05-04 11:14:29,446 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:29,809 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:30,223 | INFO | Someone has left the home, ID: 59 | {"Left": 24, "Entered": 23}
+2022-05-04 11:14:30,224 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:30,577 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:30,975 | INFO | Someone has entered the home, ID: 59 | {"Left": 24, "Entered": 24}
+2022-05-04 11:14:30,976 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:31,394 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:31,854 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:32,192 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:32,481 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:32,706 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:32,935 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:33,266 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:33,681 | INFO | Someone has left the home, ID: 61 | {"Left": 25, "Entered": 24}
+2022-05-04 11:14:33,682 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:34,072 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:34,302 | INFO | Someone has entered the home, ID: 61 | {"Left": 25, "Entered": 25}
+2022-05-04 11:14:34,304 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:34,542 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:34,767 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:34,993 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:35,319 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:35,736 | INFO | Someone has left the home, ID: 62 | {"Left": 26, "Entered": 25}
+2022-05-04 11:14:35,737 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:36,174 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:36,611 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:37,062 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:37,498 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:37,846 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:38,220 | INFO | Someone has entered the home, ID: 62 | {"Left": 26, "Entered": 26}
+2022-05-04 11:14:38,221 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:38,637 | INFO | Someone has left the home, ID: 63 | {"Left": 27, "Entered": 26}
+2022-05-04 11:14:38,638 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:39,101 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:39,540 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:40,045 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:40,536 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:40,985 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:41,438 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:41,893 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:42,347 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:42,783 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:43,130 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:43,489 | INFO | Someone has entered the home, ID: 63 | {"Left": 27, "Entered": 27}
+2022-05-04 11:14:43,490 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:43,714 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:43,938 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:44,163 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:44,388 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:44,730 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:44,954 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:45,177 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:45,399 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:45,622 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:45,846 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:46,190 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:46,422 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:46,649 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:46,875 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:47,102 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:47,328 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:47,661 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:47,889 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:48,115 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:48,460 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:48,876 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:49,335 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:49,796 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:50,138 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:50,432 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:50,661 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:50,895 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:51,122 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:51,350 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:51,576 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:51,803 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:52,149 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:52,376 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:52,612 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:52,839 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:53,066 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:53,294 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:53,623 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:53,849 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:54,076 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:54,304 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:54,529 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:54,756 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:54,991 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:55,218 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:55,445 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:55,673 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:55,900 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:56,127 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:56,353 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:56,581 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:56,808 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:57,152 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:57,379 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:57,607 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:57,833 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:58,161 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:58,578 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:58,916 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:59,209 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:59,438 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:59,665 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:14:59,892 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:00,222 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:00,446 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:00,669 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:00,893 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:01,115 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:01,445 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:01,670 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:01,899 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:02,238 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:02,462 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:02,689 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:02,913 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:03,146 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:03,371 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:03,595 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:03,822 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:04,045 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:04,269 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:04,492 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:04,717 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:04,941 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:05,165 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:05,503 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:05,727 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:05,951 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:06,281 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:06,695 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:07,074 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:07,374 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:07,711 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:07,942 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:08,176 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:08,511 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:08,736 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:08,962 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:09,302 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:09,738 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:10,198 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:10,683 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:11,122 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:11,560 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:12,021 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:12,477 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:12,963 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:13,405 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:13,842 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:14,298 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:14,739 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:15,173 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:15,627 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:16,064 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:16,544 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:17,010 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:17,499 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:17,938 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:18,393 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:18,853 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:19,424 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:19,878 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:20,413 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:20,863 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:21,355 | INFO | Someone has entered the home, ID: 89 | {"Entered": 28, "Left": 27}
+2022-05-04 11:15:21,356 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:21,884 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:22,366 | INFO | Someone has entered the home, ID: 90 | {"Entered": 29, "Left": 27}
+2022-05-04 11:15:22,367 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:22,863 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:23,324 | INFO | Someone has left the home, ID: 92 | {"Entered": 29, "Left": 28}
+2022-05-04 11:15:23,326 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:23,810 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:24,274 | INFO | Someone has entered the home, ID: 92 | {"Entered": 30, "Left": 28}
+2022-05-04 11:15:24,275 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:24,718 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:25,160 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:25,604 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:26,092 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:26,578 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:27,018 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:27,456 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:27,895 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:28,385 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:28,814 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:29,252 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:29,695 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:30,146 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:30,583 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:31,070 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:31,531 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:31,979 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:32,444 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:32,889 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:33,371 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:33,895 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:34,386 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:34,866 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:35,365 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:35,840 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:36,338 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:36,794 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:37,265 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:37,737 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:38,238 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:38,695 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:39,182 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:39,669 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:40,157 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:40,535 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:40,831 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:41,058 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:41,385 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:41,609 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:41,937 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:42,368 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:42,808 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:43,311 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:43,819 | INFO | Someone has left the home, ID: 101 | {"Entered": 30, "Left": 29}
+2022-05-04 11:15:43,820 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:44,269 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:44,725 | INFO | Someone has entered the home, ID: 101 | {"Entered": 31, "Left": 29}
+2022-05-04 11:15:44,725 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:45,222 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:45,710 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:46,202 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:46,647 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:47,095 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:47,535 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:48,031 | INFO | {"Someone Here For a Long Time": true, "Pet Detection": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:48,470 | INFO | {"Someone Here For a Long Time": true, "Pet Detection": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:48,916 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:49,409 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:49,846 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:50,290 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:50,767 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:51,209 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:51,660 | INFO | {"Someone Here For a Long Time": true, "Pet Detection": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:52,173 | INFO | {"Someone Here For a Long Time": true, "Pet Detection": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:52,621 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:53,072 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:53,512 | INFO | {"Someone Here For a Long Time": true, "Pet Detection": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:53,963 | INFO | {"Someone Here For a Long Time": true, "Pet Detection": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:54,453 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:54,895 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:55,371 | INFO | {"Someone Here For a Long Time": true, "Pet Detection": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:55,816 | INFO | {"Someone Here For a Long Time": true, "Pet Detection": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:56,372 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:56,825 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:57,265 | INFO | {"Someone Here For a Long Time": true, "Pet Detection": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:57,758 | INFO | {"Someone Here For a Long Time": true, "Pet Detection": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:58,194 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:58,538 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:58,773 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:59,010 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:59,236 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:59,459 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:15:59,784 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:00,008 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:00,335 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:00,559 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:00,783 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:01,005 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:01,226 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:01,550 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:01,773 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:02,110 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:02,535 | INFO | Someone has left the home, ID: 107 | {"Entered": 31, "Left": 30}
+2022-05-04 11:16:02,536 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:02,990 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:03,446 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:03,784 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:04,075 | INFO | Someone has entered the home, ID: 107 | {"Entered": 32, "Left": 30}
+2022-05-04 11:16:04,076 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:04,299 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:04,523 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:04,746 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:04,969 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:05,292 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:05,513 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:05,837 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:06,247 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:06,562 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:06,861 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:07,187 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:07,599 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:08,052 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:08,595 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:09,081 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:09,519 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:09,994 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:10,445 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:10,927 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:11,394 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:11,876 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:12,327 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:12,785 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:13,286 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:13,727 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:14,042 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:14,275 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:14,511 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:14,737 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:14,962 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:15,189 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:15,414 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:15,743 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:16,160 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:16,619 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:16,952 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:17,218 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:17,546 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:17,771 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:17,996 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:18,219 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:18,444 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:18,768 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:18,993 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:19,217 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:19,441 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:19,665 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:19,891 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:20,214 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:20,621 | INFO | Someone has left the home, ID: 117 | {"Entered": 32, "Left": 31}
+2022-05-04 11:16:20,622 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:21,000 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:21,394 | INFO | Someone has entered the home, ID: 117 | {"Entered": 33, "Left": 31}
+2022-05-04 11:16:21,394 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:21,617 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:21,941 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:22,164 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:22,387 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:22,615 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:22,939 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:23,164 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:23,390 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:23,615 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:23,839 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:24,065 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:24,291 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:24,515 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:24,742 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:24,965 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:25,288 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:25,510 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:25,733 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:26,059 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:26,283 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:26,607 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:26,831 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:27,055 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:27,280 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:27,602 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:27,829 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:28,053 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:28,277 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:28,499 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:28,721 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:28,949 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:29,172 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:29,395 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:29,618 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:29,941 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:30,165 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:30,392 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:30,616 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:30,935 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:31,158 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:31,479 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:31,884 | INFO | Someone has left the home, ID: 127 | {"Entered": 33, "Left": 32}
+2022-05-04 11:16:31,885 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:32,223 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:32,618 | INFO | Someone has entered the home, ID: 127 | {"Entered": 34, "Left": 32}
+2022-05-04 11:16:32,619 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:32,843 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:33,167 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:33,579 | INFO | Someone has left the home, ID: 129 | {"Entered": 34, "Left": 33}
+2022-05-04 11:16:33,580 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:34,013 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:34,347 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:34,638 | INFO | Someone has entered the home, ID: 129 | {"Entered": 35, "Left": 33}
+2022-05-04 11:16:34,639 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:34,862 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:35,188 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:35,414 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:35,738 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:35,961 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:36,186 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:36,508 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:36,916 | INFO | Someone has left the home, ID: 132 | {"Entered": 35, "Left": 34}
+2022-05-04 11:16:36,917 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:37,255 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:37,550 | INFO | Someone has entered the home, ID: 132 | {"Entered": 36, "Left": 34}
+2022-05-04 11:16:37,551 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:37,773 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:38,095 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:38,322 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:38,547 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:38,890 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:39,114 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:39,338 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:39,662 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:39,886 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:40,108 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:40,430 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:40,655 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:40,877 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:41,098 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:41,322 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:41,546 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:41,767 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:41,992 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:42,315 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:42,539 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:42,763 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:43,086 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:43,310 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:43,635 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:43,860 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:44,082 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:44,306 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:44,634 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:45,042 | INFO | Someone has left the home, ID: 140 | {"Entered": 36, "Left": 35}
+2022-05-04 11:16:45,043 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:45,419 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:45,684 | INFO | Someone has entered the home, ID: 140 | {"Entered": 37, "Left": 35}
+2022-05-04 11:16:45,685 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:46,006 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:46,418 | INFO | Someone has left the home, ID: 141 | {"Entered": 37, "Left": 36}
+2022-05-04 11:16:46,419 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:46,869 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:47,248 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:47,474 | INFO | Someone has entered the home, ID: 141 | {"Entered": 38, "Left": 36}
+2022-05-04 11:16:47,475 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:47,714 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:48,038 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:48,450 | INFO | Someone has left the home, ID: 142 | {"Entered": 38, "Left": 37}
+2022-05-04 11:16:48,451 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:48,762 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:49,058 | INFO | Someone has entered the home, ID: 142 | {"Entered": 39, "Left": 37}
+2022-05-04 11:16:49,059 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:49,386 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:49,800 | INFO | Someone has left the home, ID: 143 | {"Entered": 39, "Left": 38}
+2022-05-04 11:16:49,801 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:50,112 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:50,486 | INFO | Someone has entered the home, ID: 143 | {"Entered": 40, "Left": 38}
+2022-05-04 11:16:50,487 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:50,901 | INFO | Someone has left the home, ID: 144 | {"Entered": 40, "Left": 39}
+2022-05-04 11:16:50,902 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:51,358 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:51,842 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:52,180 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:52,581 | INFO | Someone has entered the home, ID: 144 | {"Entered": 41, "Left": 39}
+2022-05-04 11:16:52,582 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:52,809 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:53,140 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:53,364 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:53,588 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:53,917 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:54,141 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:54,485 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:54,710 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:54,933 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:55,157 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:55,496 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:55,721 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:55,947 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:56,286 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:56,512 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:56,852 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:57,079 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:57,400 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:57,807 | INFO | Someone has left the home, ID: 152 | {"Entered": 41, "Left": 40}
+2022-05-04 11:16:57,808 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:58,184 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:58,590 | INFO | Someone has entered the home, ID: 152 | {"Entered": 42, "Left": 40}
+2022-05-04 11:16:58,591 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:59,003 | INFO | Someone has left the home, ID: 153 | {"Entered": 42, "Left": 41}
+2022-05-04 11:16:59,003 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:59,445 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:16:59,782 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:00,073 | INFO | Someone has entered the home, ID: 153 | {"Entered": 43, "Left": 41}
+2022-05-04 11:17:00,074 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:00,298 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:00,521 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:00,844 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:01,067 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:01,408 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:01,634 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:01,856 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:02,078 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:02,304 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:02,627 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:02,850 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:03,078 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:03,305 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:03,528 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:03,750 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:03,975 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:04,197 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:04,423 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:04,649 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:04,872 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:05,095 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:05,321 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:05,660 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:05,884 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:06,208 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:06,620 | INFO | Someone has left the home, ID: 158 | {"Entered": 43, "Left": 42}
+2022-05-04 11:17:06,621 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:07,100 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:07,409 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:07,650 | INFO | Someone has entered the home, ID: 158 | {"Entered": 44, "Left": 42}
+2022-05-04 11:17:07,652 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:07,890 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:08,117 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:08,338 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:08,563 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:08,787 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:09,011 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:09,353 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:09,578 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:09,919 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:10,147 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:10,370 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:10,692 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:10,914 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:11,137 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:11,361 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:11,702 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:11,926 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:12,152 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:12,482 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:12,704 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:13,044 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:13,529 | INFO | Someone has left the home, ID: 164 | {"Entered": 44, "Left": 43}
+2022-05-04 11:17:13,530 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:13,851 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:14,154 | INFO | Someone has entered the home, ID: 164 | {"Entered": 45, "Left": 43}
+2022-05-04 11:17:14,154 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:14,380 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:14,604 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:14,931 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:15,154 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:15,480 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:15,707 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:16,036 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:16,261 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:16,488 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:16,815 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:17,243 | INFO | Someone has left the home, ID: 168 | {"Entered": 45, "Left": 44}
+2022-05-04 11:17:17,244 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:17,555 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:17,800 | INFO | Someone has entered the home, ID: 168 | {"Entered": 46, "Left": 44}
+2022-05-04 11:17:17,801 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:18,032 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:18,258 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:18,482 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:18,705 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:19,037 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:19,262 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:19,583 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:20,007 | INFO | Someone has left the home, ID: 170 | {"Entered": 46, "Left": 45}
+2022-05-04 11:17:20,008 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:20,321 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:20,567 | INFO | Someone has entered the home, ID: 170 | {"Entered": 47, "Left": 45}
+2022-05-04 11:17:20,568 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:20,901 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:21,313 | INFO | Someone has left the home, ID: 171 | {"Entered": 47, "Left": 46}
+2022-05-04 11:17:21,313 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:21,633 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:21,880 | INFO | Someone has entered the home, ID: 171 | {"Entered": 48, "Left": 46}
+2022-05-04 11:17:21,881 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:22,109 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:22,333 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:22,658 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:22,886 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:23,213 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:23,437 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:23,665 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:23,888 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:24,112 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:24,335 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:24,561 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:24,783 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:25,009 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:25,232 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:25,454 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:25,679 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:25,901 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:26,125 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:26,349 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:26,573 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:26,796 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:27,022 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:27,245 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:27,469 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:27,797 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:28,023 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:28,346 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:28,572 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:28,796 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:29,135 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:29,360 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:29,586 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:29,809 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:30,032 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:30,372 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:30,786 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:31,134 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:31,422 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:31,643 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:31,864 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:32,086 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:32,428 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:32,840 | INFO | Someone has left the home, ID: 178 | {"Entered": 48, "Left": 47}
+2022-05-04 11:17:32,841 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:33,286 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:33,743 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:34,234 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:34,682 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:35,127 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:35,615 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:36,079 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:36,539 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:37,031 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
+2022-05-04 11:17:37,410 | INFO | {"Pet Detection": false, "Someone Here For a Long Time": false, "Someone in Forbidden Area": false, "Camera Sabotage": false}
