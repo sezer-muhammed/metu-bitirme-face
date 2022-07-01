@@ -2,7 +2,7 @@ import argparse
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument('--model', type=str, default="bitirme_face_detection_yolov5n.pt", help='Model File Path') #burada tensorrt de olabilir pt de uzantı olarak
+parser.add_argument('--model', type=str, default="fat-480.pt", help='Model File Path') #burada tensorrt de olabilir pt de uzantı olarak
 parser.add_argument('--tracker', type=str, default="osnet_x0_25", help='Tracker Name')
 parser.add_argument('--faces', type=str, default="faces", help='Face Database Path')
 
@@ -125,6 +125,7 @@ while True:
     forbidden_points = manager.Regularize() #Düzenleme ve yasak alana giriş bilgi edinimi
     names = manager.Face_Detect() #Yüz tespiti
     Detections, _ = manager.Returner() #Detection objelerinin elde edilmesi 
+    residents = manager.return_owners()
     #Bu kısımda ellenmesi gereken bir şey yok, tüm işlemler detections ve forbidden_points üzerinden olmalı 
 
 
@@ -188,7 +189,10 @@ while True:
 
     last_ids = current_ids
         
-
+    for res in residents:
+      cv2.rectangle(frame, (int(res[0]), int(res[1])), (int(res[2]), int(res[3])), (255, 255, 255), 3)
+      cv2.putText(frame, f"||||THE RESIDENT||||", (int(res[0]), int(res[3])), cv2.FONT_HERSHEY_COMPLEX, 0.4, (0, 0, 255), 1) #Yüzleri çizdiriyor
+      break
 
     sorted_flags = dict(sorted(flags.items(), key = lambda item: item[1],  reverse = True))
     sorted_flags = json.dumps(sorted_flags)
