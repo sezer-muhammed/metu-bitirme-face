@@ -3,7 +3,7 @@ from turtle import home
 
 parser = argparse.ArgumentParser()
 
-parser.add_argument('--model', type=str, default="bitirme_face_detection_yolov5n.pt", help='Model File Path') #burada tensorrt de olabilir pt de uzantı olarak
+parser.add_argument('--model', type=str, default="fat-480.pt", help='Model File Path') #burada tensorrt de olabilir pt de uzantı olarak
 parser.add_argument('--tracker', type=str, default="osnet_x0_25", help='Tracker Name')
 parser.add_argument('--faces', type=str, default="faces", help='Face Database Path')
 
@@ -65,7 +65,7 @@ for poly in forbiddens:
   forbidden_poly.append(geometry.Polygon(poly))
   logger.info(f"Forbidden Area Added: {str(forbidden_poly[-1].wkt)}") #yasaklı alanları shapely kütüphanesi ile oluşturuyorum ve log'lara kaydediyorum 
 
-videos = glob.glob("../face_videos/2_5FPS_TEST_SABOTAGED.mov") #burası kamera için 0 olacak, video kaydı için adresini girmek gerek
+videos = glob.glob("../face_videos/*.mp4") #burası kamera için 0 olacak, video kaydı için adresini girmek gerek
 
 flags = {"Pet Detection":False, "Someone Here For a Long Time":False, "Someone in Forbidden Area":False, "Camera Sabotage":False} #flaglar
 
@@ -96,6 +96,7 @@ for video in videos:
     _, frame = cam.read()
     if _ == False:
       break
+
     
     flags["Camera Sabotage"] = False
     if np.sum(frame[360,:]) < 10000:
@@ -131,6 +132,7 @@ for video in videos:
     forbidden_points = manager.Regularize() #Düzenleme ve yasak alana giriş bilgi edinimi
     names = manager.Face_Detect() #Yüz tespiti
     Detections, _ = manager.Returner() #Detection objelerinin elde edilmesi 
+    residents = manager.return_owners()
     #Bu kısımda ellenmesi gereken bir şey yok, tüm işlemler detections ve forbidden_points üzerinden olmalı 
 
     
@@ -194,12 +196,16 @@ for video in videos:
 
     last_ids = current_ids
         
-
+    for res in residents:
+      cv2.rectangle(frame, (int(res[0]), int(res[1])), (int(res[2]), int(res[3])), (255, 255, 255), 3)
+      cv2.putText(frame, f"THE RESIDENT", (int(res[0]), int(res[3])), cv2.FONT_HERSHEY_COMPLEX, 0.4, (0, 0, 255), 1) #Yüzleri çizdiriyor
+      break
 
     sorted_flags = dict(sorted(flags.items(), key = lambda item: item[1],  reverse = True))
     sorted_flags = json.dumps(sorted_flags)
     cv2.putText(frame, f"{sorted_flags}", (10, 1000), cv2.FONT_HERSHEY_COMPLEX, 0.75, (205, 21, 125), 2) #TODO DüZELT
     logger.info(sorted_flags)
-#    cv2.imshow("frame", frame)
+    cv2.imshow("frame", frame)
     saver.write(frame) 
-#    cv2.waitKey(10)
+    if cv2.waitKey(1) == ord("q"):
+      break

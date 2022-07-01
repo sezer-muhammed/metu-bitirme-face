@@ -67,6 +67,7 @@ class ids_info():
     self.print_time = print_time
     self.model = torch.hub.load("yolov5", 'custom', path=model_path, source='local', force_reload=True)
     self.model.conf = conf
+    self.model.agnostic = True
     self.logger = logger
 
 
@@ -88,7 +89,7 @@ class ids_info():
     self.flags = [0, 0, 0, 0, 0] #forbidden enterance, too long waited people, .., .., ..
 
     start = time()
-    for resident in glob.glob("faces/residents/*.jpg"):
+    for resident in glob.glob("faces/*/*.jpg"):
       image = cv2.imread(resident)
       image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
       name = resident.split("/")[-1].split("_")[0] #! UBUNTUDA BUNU DÜZELT
@@ -99,11 +100,15 @@ class ids_info():
     if self.print_time:
       self.logger.info(f"Uploading Resident Images Done. {round(time() - start, 4)}")
 
+  def return_owners(self):
+    clss = self.result.xywh[0][:, 5].cpu()
+    return self.result.xyxy[0].cpu()[clss > 1]
+
   def Detect(self, frame):
     self.loop_start = time()
     start = time()
     self.frame = frame
-    self.result = self.model(frame)
+    self.result = self.model(frame, size = 480)
     self.yolo_detections = self.result.pred[0].cpu()
     if self.print_time:
       self.logger.info(f"Detectin Objects Done. {round(time() - start, 4)}")
@@ -156,7 +161,7 @@ class ids_info():
     self.face_encodings = face_recognition.face_encodings(self.frame, [self.face_locations[random]])
     
     for face_encode in self.face_encodings:
-      matches = face_recognition.compare_faces(self.residents, face_encode, tolerance = 0.6)
+      matches = face_recognition.compare_faces(self.residents, face_encode, tolerance = 0.65)
       face_distances = face_recognition.face_distance(self.residents, face_encode)
       best_match_index = np.argmin(face_distances)
       name = "unknown"
